@@ -1,10 +1,20 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import AboutMeContainer from "./containers/AboutMeContainer/AboutMeContainer";
+import { LangProvider } from "./context/langContext";
 
 function App(): JSX.Element {
   return (
-    <div className="App">
-      <h1>Portfolio</h1>
-    </div>
+    <LangProvider>
+      <div className="App">
+        <Navbar />
+        <Header />
+        <main>
+          <AboutMeContainer />
+        </main>
+      </div>
+    </LangProvider>
   );
 }
 

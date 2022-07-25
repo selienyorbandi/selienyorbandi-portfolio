@@ -1,0 +1,63 @@
+.Header {
+  background: var(--thirdBgColor);
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.Header span {
+  color: var(--mainFontColor);
+}
+
+.Header h1 {
+  color: var(--thirdFontColor);
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  transform: translateX(-600px);
+  animation: up 0.5s linear forwards;
+}
+
+@keyframes up {
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Header span {
+  font-size: 2.5rem;
+}
+
+/* Large mobile */
+@media screen and (max-width: 800px) and (min-height: 698px) {
+  .Header h1 {
+    font-size: calc(1.5rem + 0.8vh);
+    padding: calc(1rem + 1.6vh);
+    line-height: calc(2.5rem + 0.8vh);
+  }
+
+  .Header span {
+    font-size: calc(2.5rem + 0.8vh);
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 800px) and (min-height: 400px) {
+  .Header {
+    margin: 0;
+  }
+
+  .Header span {
+    display: none;
+  }
+
+  .Header h1 {
+    padding: 3rem 2rem;
+    align-items: flex-start;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}

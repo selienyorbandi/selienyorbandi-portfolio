@@ -1,0 +1,27 @@
+:root {
+  --mainBgColor: #ffffff;
+  --mainFontColor: #002d3e;
+  --secondaryBgColor: #002d3e;
+  --secondaryFontColor: #ffffff;
+  --thirdBgColor: #ff7a00;
+  --thirdFontColor: #ffffff;
+  --thirdFontColorAlt: #b1b1b1;
+  --neutralBgColor: #dddddd;
+  --neutralFontColor: #5a6669;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background: var(--mainBgColor);
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}

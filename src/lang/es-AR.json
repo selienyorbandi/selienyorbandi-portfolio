@@ -1,0 +1,12 @@
+{
+  "lang.es": "Español",
+  "lang.en": "Inglés",
+  "nav.home": "Inicio",
+  "nav.aboutme": "Sobre mí",
+  "nav.projects": "Proyectos",
+  "nav.contact": "Contacto",
+  "nav.cv": "CV",
+  "nav-cvDownload": "Descargar CV",
+  "header.title": "Desarrollador web frontend",
+  "aboutMe.body": "Desarrollo aplicaciones web modernas, eficientes e interactivas en React Js con foco en la buena experiencia de usuario. Me capacito y actualizo para ofrecer soluciones reales frente a los problemas."
+}

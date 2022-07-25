@@ -1,0 +1,61 @@
+.Aboutme {
+  width: 100%;
+  color: var(--mainFontColor);
+}
+
+.Aboutme p {
+  padding: 1.5rem 2rem;
+  opacity: 0;
+  animation: fadeee 1s forwards;
+}
+
+@keyframes fadeee {
+  100% {
+    opacity: 1;
+  }
+}
+
+.Aboutme div {
+  width: 100%;
+}
+
+.Aboutme img {
+  width: 100%;
+}
+
+/* Large mobile */
+@media screen and (max-width: 900px) and (min-height: 698px) {
+  .Aboutme p {
+    padding: calc(1.5rem + 2.5vh) 2rem;
+    font-size: calc(0.9rem + 0.9vh);
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) and (min-height: 400px) {
+  .Aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Aboutme p {
+    width: 50%;
+    font-size: calc(2rem + 1vw);
+    font-weight: 300;
+  }
+
+  .Aboutme div {
+    width: 50%;
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1400px) and (min-height: 400px) {
+  .Aboutme {
+    padding-top: 3rem;
+  }
+}
