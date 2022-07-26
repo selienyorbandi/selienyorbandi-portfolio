@@ -25,10 +25,6 @@
   animation: up 0.5s linear forwards;
 }
 
-.Header h2 {
-  background: var(--mainFontColor);
-}
-
 @keyframes up {
   100% {
     transform: translateX(0);

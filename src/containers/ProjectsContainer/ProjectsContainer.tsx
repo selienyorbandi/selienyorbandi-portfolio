@@ -1,4 +1,5 @@
 import { FormattedMessage, useIntl } from "react-intl";
+import Carousel from "../../components/Carousel/Carousel";
 import Header from "../../components/Header/Header";
 import styles from "./ProjectsContainer.module.css";
 
@@ -11,6 +12,10 @@ function ProjectsContainer() {
       <p className={styles.Projects__Instructions}>
         <FormattedMessage id={"projects.instructions"} defaultMessage="Click on each project for more details"/>
       </p>
+      <div>
+        <Carousel/>
+      </div>
+      <button><FormattedMessage id={"projects.seemore"} defaultMessage="See more projects"/></button>
     </section>
   );
 }
