@@ -8,5 +8,7 @@
   "nav.cv": "CV",
   "nav-cvDownload": "Descargar CV",
   "header.title": "Desarrollador web frontend",
-  "aboutMe.body": "Desarrollo aplicaciones web modernas, eficientes e interactivas en React Js con foco en la buena experiencia de usuario. Me capacito y actualizo para ofrecer soluciones reales frente a los problemas."
+  "home.body": "Desarrollo aplicaciones web modernas, eficientes e interactivas en React Js con foco en la buena experiencia de usuario. Soluciono problemas reales gracias a mi capacitación y actualización constante.",
+  "projects.title": "Proyectos",
+  "projects.instructions": "Presiona en cada proyecto para conocer más" 
 }

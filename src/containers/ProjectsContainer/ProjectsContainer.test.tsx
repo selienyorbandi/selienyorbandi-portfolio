@@ -1,13 +1,13 @@
 import { render } from "@testing-library/react";
 import { LangProvider } from "../../context/langContext";
-import Header from "./Header";
+import ProjectsContainer from "./ProjectsContainer";
 
 test("renders content", () => {
-  const headerRender = render(
+  const homeRender = render(
     <LangProvider>
-      <Header />
+      <ProjectsContainer />
     </LangProvider>
   );
-
-  expect(headerRender.container).toBeVisible();
+    
+  expect(homeRender.container).toBeVisible();
 });

@@ -1,6 +1,6 @@
 .Navbar__Mobile {
   position: fixed;
-  z-index: 1050;
+  z-index: 1080;
   bottom: 0;
   width: 100%;
   height: 10vh;
@@ -20,7 +20,7 @@
   gap: 0.6rem;
 }
 
-.Navbar__Mobile li {
+.Navbar__Mobile li a {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -35,8 +35,8 @@
   height: calc(20px + 1vw);
 }
 
-.Navbar__Mobile li:active,
-.Navbar__Mobile li:hover {
+.Navbar__Mobile li a:active,
+.Navbar__Mobile li a:hover {
   filter: grayscale(0) brightness(1);
 }
 
@@ -56,7 +56,9 @@
   }
 
   .Navbar__Desktop {
-    position: sticky;
+    position: fixed;
+    z-index: 1090;
+    top: 0;
     width: 100%;
     padding: 1rem 2rem;
     display: flex;
@@ -101,6 +103,10 @@
     transform: scaleX(1);
   }
 
+  .Navbar__Desktop li a {
+    color: var(--secondaryFontColor);
+  }
+
   .Navbar__Desktop img {
     height: 100%;
     cursor: pointer;
@@ -125,7 +131,7 @@
     text-shadow: 0px -1px 0px #cc08bf;
     font-size: calc(0.4rem + 1vw);
   }
-
+  
   .Navbar__Desktop__CV:active {
     position: relative;
     top: 1px;

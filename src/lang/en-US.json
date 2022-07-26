@@ -8,5 +8,7 @@
   "nav.cv": "CV",
   "nav-cvDownload": "Download CV",
   "header.title": "Frontend developer",
-  "aboutMe.body": "I develop modern, efficient and interactive web apps in React Js focused on a good user experience. I train and keep myself updated to offer real solutions to real problems."
+  "home.body": "I develop modern, efficient and interactive web apps in React Js focused on a good user experience. I train and keep myself updated to offer real solutions to real problems.",
+  "projects.title": "Projects",
+  "projects.instructions": "Click on each project for more details" 
 }

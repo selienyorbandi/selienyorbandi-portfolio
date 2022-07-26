@@ -1,9 +1,9 @@
-.Aboutme {
+.Home {
   width: 100%;
   color: var(--mainFontColor);
 }
 
-.Aboutme p {
+.Home p {
   padding: 1.5rem 2rem;
   opacity: 0;
   animation: fadeee 1s forwards;
@@ -15,17 +15,18 @@
   }
 }
 
-.Aboutme div {
+.Home div {
   width: 100%;
+  background: var(--mainFontColor);
 }
 
-.Aboutme img {
+.Home img {
   width: 100%;
 }
 
 /* Large mobile */
 @media screen and (max-width: 900px) and (min-height: 698px) {
-  .Aboutme p {
+  .Home p {
     padding: calc(1.5rem + 2.5vh) 2rem;
     font-size: calc(0.9rem + 0.9vh);
   }
@@ -33,19 +34,19 @@
 
 /* Desktop */
 @media screen and (min-width: 900px) and (min-height: 400px) {
-  .Aboutme {
+  .Home {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   
-  .Aboutme p {
+  .Home p {
     width: 50%;
     font-size: calc(2rem + 1vw);
     font-weight: 300;
   }
 
-  .Aboutme div {
+  .Home div {
     width: 50%;
     display: flex;
     justify-self: flex-end;
@@ -55,7 +56,7 @@
 
 /* Large Desktop */
 @media screen and (min-width: 1400px) and (min-height: 400px) {
-  .Aboutme {
+  .Home {
     padding-top: 3rem;
   }
 }

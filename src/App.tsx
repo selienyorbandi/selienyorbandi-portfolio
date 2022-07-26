@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
-import AboutMeContainer from "./containers/AboutMeContainer/AboutMeContainer";
+import HomeContainer from "./containers/HomeContainer/HomeContainer";
+import ProjectsContainer from "./containers/ProjectsContainer/ProjectsContainer";
 import { LangProvider } from "./context/langContext";
 
 function App(): JSX.Element {
@@ -9,9 +9,9 @@ function App(): JSX.Element {
     <LangProvider>
       <div className="App">
         <Navbar />
-        <Header />
         <main>
-          <AboutMeContainer />
+          <HomeContainer />
+          <ProjectsContainer/>
         </main>
       </div>
     </LangProvider>

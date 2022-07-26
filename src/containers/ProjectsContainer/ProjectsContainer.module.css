@@ -1,0 +1,12 @@
+.Projects {
+    margin-bottom: 12vh; /* For the last container */
+}
+
+.Projects__Instructions {
+    color: var(--mainFontColor);
+    font-size: calc(0.9rem + 0.9vh);
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem 0;
+}
+

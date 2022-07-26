@@ -9,9 +9,9 @@ function LangSelector() {
   const { setLanguage } = useContext(langContext);
   const [active, setActive] = useState(false);
   const langSelectorRef = useRef<HTMLDivElement>(null);
-  
-  useOnClickOutside(langSelectorRef, () => setActive(false));
 
+  useOnClickOutside(langSelectorRef, () => setActive(false));
+  
   return (
     <div className={styles.LangSelector} ref={langSelectorRef}>
       <img src={langIco} alt="Language selector" onClick={() => setActive(!active)} />
