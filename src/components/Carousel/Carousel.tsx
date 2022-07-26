@@ -16,6 +16,7 @@ function Carousel () {
   return (
     <Swiper
       grabCursor={true}
+      slideToClickedSlide={true}
       centeredSlides={true}
       slidesPerView={5}
       coverflowEffect={{
@@ -25,7 +26,7 @@ function Carousel () {
         modifier: 1,
         slideShadows: true,
       }}
-      pagination={true}
+      pagination={{ clickable: true }}
       loop={true}
       loopPreventsSlide={true}
       loopAdditionalSlides={30}
