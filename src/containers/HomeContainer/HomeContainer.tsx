@@ -8,16 +8,18 @@ function HomeContainer(): JSX.Element {
   
   return (
     <>
-      <Header top="Selien Yorbandi" bottom={intl.formatMessage({ id: "header.title" })} isMain/>
-      <section className={styles.Home}>
-        <p>
-          <FormattedMessage
-            id="home.body"
-            defaultMessage="I develop modern, efficient and interactive web apps in React Js focused on a good user experience. I train and keep myself updated to offer real solutions to real problems."
-          />
-        </p>
-        <div>
-          <img src={gif} loading="lazy" alt="Developer" />
+      <section className={styles.Home} id="home">
+        <Header top="Selien Yorbandi" bottom={intl.formatMessage({ id: "header.title" })} isMain />
+        <div className={styles.Home__Content}>
+          <p>
+            <FormattedMessage
+              id="home.body"
+              defaultMessage="I develop modern, efficient and interactive web apps in React Js focused on a good user experience. I train and keep myself updated to offer real solutions to real problems."
+            />
+          </p>
+          <div>
+            <img src={gif} loading="lazy" alt="Developer" />
+          </div>
         </div>
       </section>
     </>

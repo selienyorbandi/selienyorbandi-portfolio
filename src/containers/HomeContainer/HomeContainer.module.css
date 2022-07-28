@@ -1,9 +1,9 @@
-.Home {
+.Home__Content {
   width: 100%;
   color: var(--mainFontColor);
 }
 
-.Home p {
+.Home__Content p {
   padding: 1.5rem 2rem;
   opacity: 0;
   animation: fadeee 1s forwards;
@@ -15,18 +15,18 @@
   }
 }
 
-.Home div {
+.Home__Content div {
   width: 100%;
   background: var(--mainFontColor);
 }
 
-.Home img {
+.Home__Content img {
   width: 100%;
 }
 
 /* Large mobile */
 @media screen and (max-width: 900px) and (min-height: 698px) {
-  .Home p {
+  .Home__Content p {
     padding: calc(1.5rem + 2.5vh) 2rem;
     font-size: calc(0.9rem + 0.9vh);
   }
@@ -34,19 +34,19 @@
 
 /* Desktop */
 @media screen and (min-width: 900px) and (min-height: 400px) {
-  .Home {
+  .Home__Content {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   
-  .Home p {
+  .Home__Content p {
     width: 50%;
     font-size: calc(2rem + 1vw);
     font-weight: 300;
   }
 
-  .Home div {
+  .Home__Content div {
     width: 50%;
     display: flex;
     justify-self: flex-end;
@@ -56,7 +56,7 @@
 
 /* Large Desktop */
 @media screen and (min-width: 1400px) and (min-height: 400px) {
-  .Home {
+  .Home__Content {
     padding-top: 3rem;
   }
 }

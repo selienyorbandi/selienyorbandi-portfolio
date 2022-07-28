@@ -1,14 +1,14 @@
-.swiper-container {
+.Carousel__Projects .swiper-container {
     position: relative;
     max-width: 300px;
 }
 
-.swiper-container>.swiper-slide__content {
+.Carousel__Projects .swiper-container >.swiper-slide__content {
     position: absolute;
     top: 0;
 }
 
-.swiper-slide {
+.Carousel__Projects .swiper-slide {
     width: 700px;
     display: flex;
     align-items: center;
@@ -19,58 +19,56 @@
     max-width: 300px;
 }
 
-.swiper-slide-active {
+.Carousel__Projects .swiper-slide-active {
     transform: scale(0.7);
     z-index: 1090;
 }
 
-.swiper-slide-prev,
-.swiper-slide-next {
+.Carousel__Projects .swiper-slide-prev,
+.Carousel__Projects .swiper-slide-next {
     transform: scale(0.6);
     z-index: 1080;
 }
 
-.swiper-pagination {
+.Carousel__Projects .swiper-pagination {
     position: relative;
     margin: 1rem 0;
 }
 
-.swiper-pagination-bullet {
+.Carousel__Projects .swiper-pagination-bullet {
     background: var(--mainFontColor);
 }
 
-.CarouselImg {
+.Carousel__Projects .CarouselImg {
     max-width: 350px;
 }
 
 @media screen and (max-width: 900px) and (min-height: 698px) {
-    .CarouselImg {
+    .Carousel__Projects .CarouselImg {
         max-width: 500px;
     }
 }
 
 @media screen and (min-width: 900px) and (min-height: 400px) {
-    .CarouselImg {
+    .Carousel__Projects .CarouselImg {
         max-width: none;
     }
 
-    .swiper-container {
+    .Carousel__Projects .swiper-container {
         max-width: none;
     }
 
-    .swiper-slide {
+    .Carousel__Projects .swiper-slide {
         transform: scale(0.7);
         max-width: none;
     }
 
-    .swiper-slide-active {
+    .Carousel__Projects .swiper-slide-active {
         transform: scale(0.9);
     }
 
-    .swiper-slide-prev,
-    .swiper-slide-next {
+    .Carousel__Projects .swiper-slide-prev,
+    .Carousel__Projects .swiper-slide-next {
         transform: scale(0.8);
     }
-
-
 }

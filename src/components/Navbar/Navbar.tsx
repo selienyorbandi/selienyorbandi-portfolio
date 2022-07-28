@@ -17,7 +17,7 @@ function Navbar(): JSX.Element {
       <nav className={styles.Navbar__Mobile}>
         <ul>
           <li>
-            <a href="#home">
+            <a href="#home" onClick={()=> window.scroll(0,0)}>
               <span>
                 <FormattedMessage id="nav.home" defaultMessage="Home" />
               </span>
@@ -66,7 +66,7 @@ function Navbar(): JSX.Element {
         </div>
         <ul className={styles.Navbar__Desktop__List}>
           <li>
-            <a href="#home"><FormattedMessage id="nav.home" defaultMessage="Home" /></a>
+            <a href="#" onClick={()=> window.scroll(0,0)}><FormattedMessage id="nav.home" defaultMessage="Home" /></a>
           </li>
           <li>
             <a href="#aboutme"><FormattedMessage id="nav.aboutme" defaultMessage="About me" /></a>

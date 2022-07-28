@@ -19,6 +19,10 @@
   font-family: "Oswald", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--mainBgColor);
   font-family: "Oswald", sans-serif;
