@@ -67,10 +67,13 @@ function Carousel() {
           <img className="CarouselImg" src={portfolio} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="CarouselImg" src={videoplus} 
+          <img
+            className="CarouselImg"
+            src={videoplus}
             onDoubleClick={() =>
               window.open("https://github.com/selienyorbandi/videoplus", "_blank")
-            }/>
+            }
+          />
         </SwiperSlide>
       </Swiper>
     </div>

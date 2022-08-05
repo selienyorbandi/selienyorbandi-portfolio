@@ -11,5 +11,11 @@
   "home.body": "Desarrollo aplicaciones web modernas, eficientes e interactivas en React Js con foco en la buena experiencia de usuario. Soluciono problemas reales gracias a mi capacitación y actualización constante.",
   "projects.title": "Proyectos",
   "projects.instructions": "Haz doble click en cada proyecto para conocer más",
-  "projects.seemore": "Ver más proyectos"
+  "projects.seemore": "Ver más proyectos",
+  "contact.form.title": "Conversemos",
+  "contact.form.name": "Nombre",
+  "contact.form.email": "Correo electrónico",
+  "contact.form.message": "Tu mensaje",
+  "contact.form.submit": "Enviar mensaje",
+  "contact.moreoptions": "También puedes contactarme desde"
 }

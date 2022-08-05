@@ -3,10 +3,9 @@ import { LangProvider } from "../../context/langContext";
 import Header from "./Header";
 
 test("renders content", () => {
-
   const headerRender = render(
     <LangProvider>
-      <Header top="Selien Yorbandi" bottom="Lorem ipsum"/>
+      <Header top="Selien Yorbandi" bottom="Lorem ipsum" />
     </LangProvider>
   );
 

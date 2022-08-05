@@ -37,7 +37,6 @@
 
 /* Large mobile */
 @media screen and (max-width: 900px) and (min-height: 698px) {
-
   .Header h1,
   .Header h2 {
     font-size: calc(1.5rem + 0.8vh);

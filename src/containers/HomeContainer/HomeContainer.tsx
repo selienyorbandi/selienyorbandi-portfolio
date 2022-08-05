@@ -5,7 +5,7 @@ import styles from "./HomeContainer.module.css";
 
 function HomeContainer(): JSX.Element {
   const intl = useIntl();
-  
+
   return (
     <>
       <section className={styles.Home} id="home">

@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import ContactContainer from "./containers/ContactContainer/ContactContainer";
 import HomeContainer from "./containers/HomeContainer/HomeContainer";
 import ProjectsContainer from "./containers/ProjectsContainer/ProjectsContainer";
 import { LangProvider } from "./context/langContext";
@@ -11,7 +12,8 @@ function App(): JSX.Element {
         <Navbar />
         <main>
           <HomeContainer />
-          <ProjectsContainer/>
+          <ProjectsContainer />
+          <ContactContainer />
         </main>
       </div>
     </LangProvider>

@@ -1,55 +1,55 @@
 .Projects {
-    margin-bottom: 15vh;
-    display: flex;
-    flex-direction: column;
-    flex-direction: column;
-    justify-content: center;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Projects__Instructions {
-    color: var(--mainFontColor);
-    font-size: calc(0.9rem + 0.9vh);
-    font-weight: 300;
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+  color: var(--mainFontColor);
+  font-size: calc(0.9rem + 0.9vh);
+  font-weight: 300;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .Projects button {
-    box-shadow: inset 0px 34px 0px -15px #002d3e;
-    background: linear-gradient(to bottom, #005364 5%, #005364 100%);
-    background-color: #005364;
-    border: 1px solid #00171f;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding: 9px 23px;
-    margin: 1.5rem;
-    text-decoration: none;
-    text-shadow: 0px -1px 0px #000000;
-    align-self: center;
+  box-shadow: inset 0px 34px 0px -15px #002d3e;
+  background: linear-gradient(to bottom, #005364 5%, #005364 100%);
+  background-color: #005364;
+  border: 1px solid #00171f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 9px 23px;
+  margin: 1.5rem;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #000000;
+  align-self: center;
 }
 
 .Projects button:hover {
-    background: linear-gradient(to bottom, #005364 5%, #005364 100%);
-    background-color: #005364;
+  background: linear-gradient(to bottom, #005364 5%, #005364 100%);
+  background-color: #005364;
 }
 
 .Projects button:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }
 
 @media screen and (min-width: 900px) and (min-height: 400px) {
-    .Projects {
-        margin-bottom: 20px;
-        min-height: 100vh;
-    }
-    
-    .Projects__Instructions {
-        font-size: calc(1.7rem + 0.9vh);
-    }
+  .Projects {
+    margin-bottom: 20px;
+    min-height: 100vh;
+  }
+
+  .Projects__Instructions {
+    font-size: calc(1.7rem + 0.9vh);
+  }
 }

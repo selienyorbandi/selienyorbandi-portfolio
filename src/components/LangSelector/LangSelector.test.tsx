@@ -17,9 +17,8 @@ test("show options", () => {
       <LangSelector />
     </LangProvider>
   );
-  const toggler = component.getByAltText("Language selector"); 
-  fireEvent.click(toggler); 
-  expect(screen.getByText("Spanish" || "Español"));  
+  const toggler = component.getByAltText("Language selector");
+  fireEvent.click(toggler);
+  expect(screen.getByText("Spanish" || "Español"));
   expect(screen.getByText("English" || "Inglés"));
-  
 });

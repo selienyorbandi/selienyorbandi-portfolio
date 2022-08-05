@@ -11,7 +11,7 @@ function LangSelector() {
   const langSelectorRef = useRef<HTMLDivElement>(null);
 
   useOnClickOutside(langSelectorRef, () => setActive(false));
-  
+
   return (
     <div className={styles.LangSelector} ref={langSelectorRef}>
       <img src={langIco} alt="Language selector" onClick={() => setActive(!active)} />
@@ -19,13 +19,13 @@ function LangSelector() {
         <ul>
           <div onClick={() => setLanguage("en-US")}>
             <li>
-              <FormattedMessage id="lang.en" defaultMessage="English"/>
+              <FormattedMessage id="lang.en" defaultMessage="English" />
             </li>
           </div>{" "}
           |
           <div onClick={() => setLanguage("es-AR")}>
             <li>
-              <FormattedMessage id="lang.es" defaultMessage="Spanish"/>
+              <FormattedMessage id="lang.es" defaultMessage="Spanish" />
             </li>
           </div>
         </ul>

@@ -1,0 +1,72 @@
+.ContactForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContactForm h3 {
+  color: var(--mainFontColor);
+  text-transform: uppercase;
+  align-self: flex-start;
+  font-size: calc(1.5rem + 2.5vw);
+}
+
+.ContactForm div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ContactForm input,
+.ContactForm textarea,
+.ContactForm label {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.1rem 1rem;
+}
+
+.ContactForm label {
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+
+.ContactForm input,
+.ContactForm textarea {
+  background: #f2f2f2;
+  border: solid 1px gray;
+  min-width: 100%;
+  font-size: 1.2rem;
+}
+
+.ContactForm input {
+  min-height: 40px;
+}
+
+.ContactForm textarea {
+  min-height: 150px;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.ContactForm input:active,
+.ContactForm textarea:active,
+.ContactForm input:focus,
+.ContactForm textarea:focus {
+    outline: solid 1px var(--mainFontColor);
+    border: solid 1px var(--mainFontColor);
+}
+
+.ContactForm button {
+    margin-top: .5rem;
+}
+
+@media screen and (min-width: 900px) and (min-height: 800px) {
+  .ContactForm textarea {
+    min-height: 250px;
+    max-width: 100%;
+    padding: 1rem;
+  }
+}

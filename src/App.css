@@ -29,3 +29,8 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
+hr {
+  width: 60%;
+  margin: auto;
+}
