@@ -18,7 +18,7 @@ function Button({
   bottomColor = "#005364",
   onClickFn,
   btnType = "button",
-  disabled = false
+  disabled = false,
 }: BtnProps): JSX.Element {
   return (
     <button

@@ -50,20 +50,20 @@ function LangProvider({ children }: { children: JSX.Element }): JSX.Element {
 
   const setLanguage = (language: string) => {
     switch (language) {
-      case "es-AR":
-        setMessages(spanishMessages);
-        setLocale("es-AR");
-        localStorage.setItem("lang", "es-AR");
-        break;
-      case "en-US":
-        setMessages(englishMessages);
-        setLocale("en-US");
-        localStorage.setItem("lang", "en-US");
-        break;
-      default:
-        setMessages(englishMessages);
-        setLocale("en-US");
-        localStorage.setItem("lang", "en-US");
+    case "es-AR":
+      setMessages(spanishMessages);
+      setLocale("es-AR");
+      localStorage.setItem("lang", "es-AR");
+      break;
+    case "en-US":
+      setMessages(englishMessages);
+      setLocale("en-US");
+      localStorage.setItem("lang", "en-US");
+      break;
+    default:
+      setMessages(englishMessages);
+      setLocale("en-US");
+      localStorage.setItem("lang", "en-US");
     }
   };
 

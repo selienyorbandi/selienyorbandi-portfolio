@@ -17,7 +17,13 @@ function ContactContainer(): JSX.Element {
       </div>
       <div className={styles.VerticalSeparator}></div>
       <div className={styles.ContactContainer__Moreoptions}>
-        <img src={contactDeco} alt="Contact me" width="300px" height="250px" className={styles.ContactContainer__Moreoptions__DecoImg}/>
+        <img
+          src={contactDeco}
+          alt="Contact me"
+          width="300px"
+          height="250px"
+          className={styles.ContactContainer__Moreoptions__DecoImg}
+        />
         <p>
           <FormattedMessage id="contact.moreoptions" defaultMessage="Or let's talk in" />
         </p>

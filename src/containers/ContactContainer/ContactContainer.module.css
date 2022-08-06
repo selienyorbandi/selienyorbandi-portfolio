@@ -21,50 +21,50 @@
 }
 
 .ContactContainer__Moreoptions {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.ContactContainer__Moreoptions__DecoImg  {
-    margin: 1rem 0;
-    max-width: 500px;
+.ContactContainer__Moreoptions__DecoImg {
+  margin: 1rem 0;
+  max-width: 500px;
 }
 
 .ContactContainer__Moreoptions p {
-    font-size: 1.4rem;
-    color: var(--mainFontColor);
+  font-size: 1.4rem;
+  color: var(--mainFontColor);
 }
 
 .ContactContainer__LinkIcos {
-    display: flex;
-    gap: .5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 @media screen and (min-width: 900px) and (min-height: 600px) {
-    .ContactContainer__Moreoptions__DecoImg {
-        width: calc(280px + 4vw);
-        height: auto;
-    }
+  .ContactContainer__Moreoptions__DecoImg {
+    width: calc(280px + 4vw);
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 1150px) and (min-height: 800px) {
-    .ContactContainer__Moreoptions__DecoImg  {
-        width: calc(350px + 7vw);
-        height: auto;
-    }
-    
-    .ContactContainer__Moreoptions p {
-        font-size: 1.4rem;
-        color: var(--mainFontColor);
-    }
+  .ContactContainer__Moreoptions__DecoImg {
+    width: calc(350px + 7vw);
+    height: auto;
+  }
+
+  .ContactContainer__Moreoptions p {
+    font-size: 1.4rem;
+    color: var(--mainFontColor);
+  }
 }
 
 @media screen and (min-width: 1360px) {
-    .VerticalSeparator {
-        display: flex;
-        align-self: center;
-    }
+  .VerticalSeparator {
+    display: flex;
+    align-self: center;
+  }
 }

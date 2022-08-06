@@ -55,12 +55,30 @@
 .ContactForm textarea:active,
 .ContactForm input:focus,
 .ContactForm textarea:focus {
-    outline: solid 1px var(--mainFontColor);
-    border: solid 1px var(--mainFontColor);
+  outline: solid 1px var(--mainFontColor);
+  border: solid 1px var(--mainFontColor);
 }
 
 .ContactForm button {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
+}
+
+.ContactForm__ErrorMsg {
+  color: red;
+  font-size: 1.25rem;
+  background: rgb(255, 237, 237);
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.ContactForm__Success {
+  color: green;
+  font-size: 1.25rem;
+  background: rgb(236, 255, 236);
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (min-width: 900px) and (min-height: 800px) {

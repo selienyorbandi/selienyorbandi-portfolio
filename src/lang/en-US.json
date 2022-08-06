@@ -17,5 +17,8 @@
   "contact.form.email": "Email",
   "contact.form.message": "Your message",
   "contact.form.submit": "Send message",
-  "contact.moreoptions": "Or let's talk in"
+  "contact.moreoptions": "Or let's talk in",
+  "form.error.emptyfield": "Please fill all the fields",
+  "form.error.invalidemail": "Please enter a valid email",
+  "form.success": "Message sent successfully. I will get back to you within 24 hours"
 }

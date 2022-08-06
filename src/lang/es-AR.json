@@ -17,5 +17,8 @@
   "contact.form.email": "Correo electrónico",
   "contact.form.message": "Tu mensaje",
   "contact.form.submit": "Enviar mensaje",
-  "contact.moreoptions": "También puedes contactarme desde"
+  "contact.moreoptions": "También puedes contactarme desde",
+  "form.error.emptyfield": "Por favor rellene los campos primero",
+  "form.error.invalidemail": "Por favor ingrese un correo electrónico válido",
+  "form.success": "Mensaje enviado. Dentro de las siguientes 24hs recibirá una respuesta"
 }

@@ -20,7 +20,7 @@ interface ImageList {
 }
 
 function ThumbnailsSlider({ images }: ImageList): JSX.Element {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [thumbsSwiper] = useState(null);
 
   return (
     <>
