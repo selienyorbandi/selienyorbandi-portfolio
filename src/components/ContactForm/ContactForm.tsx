@@ -12,8 +12,7 @@ function ContactForm() {
   const [success, setSuccess] = useState(false);
 
   const isValidEmail = () => {
-    const regExpr =
-      /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
+    const regExpr = /^[A-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-z0-9](?:[A-z0-9-]*[A-z0-9]){1,}?\.)+[A-z0-9](?:[A-z0-9-]*[A-z0-9]){1,}?$/;
     if (regExpr.test(emailForm)) {
       return { isvalid: true, errorMsg: null };
     } else {
@@ -45,6 +44,7 @@ function ContactForm() {
       const xhr = new XMLHttpRequest();
       xhr.open("POST", "https://www.actionforms.io/e/r/contact-selien-yorbandi", true);
       xhr.send(formdata);
+      setError({ exist: false, errorMsg: "" });
       setSuccess(true);
       e.target.reset();
       setName("");
@@ -75,8 +75,8 @@ function ContactForm() {
           name="Name"
           id="Name"
           required={true}
-          onChange={e => setName(e.target.value || "")}
-          onBlur={e => setEmail(e.target.value || "")}
+          onChange={e => setName(e.target.value)}
+          value={nameForm}
         />
       </div>
       <div>
@@ -88,8 +88,8 @@ function ContactForm() {
           name="Email"
           id="Email"
           required={true}
-          onChange={e => setEmail(e.target.value || "")}
-          onBlur={e => setEmail(e.target.value || "")}
+          onChange={e => setEmail(e.target.value)}
+          value={emailForm}
         />
       </div>
       <div>
@@ -100,8 +100,8 @@ function ContactForm() {
           id="Message"
           name="Message"
           required={true}
-          onChange={e => setMessage(e.target.value || "")}
-          onBlur={e => setEmail(e.target.value || "")}
+          onChange={e => setMessage(e.target.value)}
+          value={messageForm}
         />
       </div>
       {error.exist && <p className={styles.ContactForm__ErrorMsg}> {error.errorMsg} </p>}
