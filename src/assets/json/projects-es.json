@@ -1,0 +1,395 @@
+[
+  {
+    "id": 1,
+    "title": "Computahorra",
+    "description": "Computahorra no es solo una tienda digital de productos de informática. Descubrí qué la hace única:",
+    "description_list": [
+      "Función de búsqueda",
+      "Filtro por categorías",
+      "Autenticación con email, google y facebook",
+      "Consumo de la API de Firebase",
+      "Responsividad en distintas resoluciones",
+      "Hecho con React Js y Firebase"
+    ],
+    "images": [
+      {
+        "id": 1,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index.png",
+        "alt": "Página de inicio de Computahorra"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index2.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index2.png",
+        "alt": "Página de inicio de Computahorra"
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/categories.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/categories.png",
+        "alt": "Vista de Categorías en Computahorra"
+      },
+      {
+        "id": 4,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/productitem.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/productitem.png",
+        "alt": "Detalle de cada producto"
+      },
+      {
+        "id": 5,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/loginregister.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/loginregister.png",
+        "alt": "Inicio de sesión y registro"
+      },
+      {
+        "id": 6,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/cart.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/cart.png",
+        "alt": "Carrito de compra"
+      },
+      {
+        "id": 7,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/checkout.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/checkout.png",
+        "alt": "Fase de pago"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 101,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "alt": "React JS. Hooks.",
+        "title": "React JS"
+      },
+      {
+        "id": 100,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+        "alt": "Javascript. ECMA 6+",
+        "title": "Javascript"
+      },
+      {
+        "id": 102,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
+        "alt": "Firebase. Firestore. Firebase auth",
+        "title": "Firebase"
+      },
+      {
+        "id": 103,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "alt": "CSS 3. Css modules",
+        "title": "CSS 3"
+      },
+      {
+        "id": 104,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "alt": "HTML 5. Semantic HTML",
+        "title": "HTML 5"
+      }
+    ],
+    "deployLink": "https://computahorra.netlify.app/",
+    "repositoryLink": "https://github.com/selienyorbandi/computahorra"
+  },
+  {
+    "id": 2,
+    "title": "Videoplus",
+    "description": "Videoplus es un catálogo de películas y series que ofrece:",
+    "description_list": [
+      "Buscar por nombre",
+      "Filtrar por categorías",
+      "Ver el detalle de cada una",
+      "Ver trailers",
+      "Obtener recomendaciones"
+    ],
+    "images": [
+      {
+        "id": 1,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index.png",
+        "alt": "Página de inicio de Videoplus"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index2.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index2.png",
+        "alt": "Página de inicio de Videoplus"
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/peliculas-series.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/peliculas-series.png",
+        "alt": "Páginas de películas y series"
+      },
+      {
+        "id": 4,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/generos.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/generos.png",
+        "alt": "Filtro por géneros y categorías"
+      },
+      {
+        "id": 5,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details.png",
+        "alt": "Detalles de cada película o series"
+      },
+      {
+        "id": 6,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details2.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details2.png",
+        "alt": "Detalles de cada película o series"
+      },
+      {
+        "id": 7,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/busqueda.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/busqueda.png",
+        "alt": "Función de búsqueda"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 101,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "alt": "React JS. Hooks.",
+        "title": "React JS"
+      },
+      {
+        "id": 100,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+        "alt": "Javascript. ECMA 6+",
+        "title": "Javascript"
+      },
+      {
+        "id": 103,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "alt": "CSS 3. Css modules",
+        "title": "CSS 3"
+      },
+      {
+        "id": 107,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "alt": "HTML 5. Semantic HTML",
+        "title": "HTML 5"
+      }
+    ],
+    "deployLink": "https://videoplus-sy.netlify.app/",
+    "repositoryLink": "https://github.com/selienyorbandi/videoplus"
+  },
+  {
+    "id": 3,
+    "title": "Recipes App",
+    "description": "Es una aplicación de recetas de cocina en la que puedes:",
+    "description_list": [
+      "Buscar y encontrar recetas de cocina",
+      "Filtrar por categorías y origen",
+      "Guardar recetas para ver más tarde",
+      "Ver recetas guardadas sin conexión a internet"
+    ],
+    "images": [
+      {
+        "id": 1,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/index.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/index.png",
+        "alt": "Página de inicio de Recipes APP"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/search.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/search.png",
+        "alt": "Búsqueda de una receta"
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/categories.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/categories.png",
+        "alt": "Búsqueda por categorías"
+      },
+      {
+        "id": 4,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/recipe.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/recipe.png",
+        "alt": "Vista en detalle de una receta"
+      },
+      {
+        "id": 5,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/origin.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/origin.png",
+        "alt": "Búsqueda por orígen de la receta"
+      },
+      {
+        "id": 6,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/saved.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/saved.png",
+        "alt": "Recetas guardadas para ver sin conexión"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 101,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "alt": "React JS. Hooks.",
+        "title": "React JS"
+      },
+      {
+        "id": 108,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "alt": "Typescript",
+        "title": "Typescript"
+      },
+      {
+        "id": 103,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "alt": "CSS 3. Css modules",
+        "title": "CSS 3"
+      },
+      {
+        "id": 107,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "alt": "HTML 5. Semantic HTML",
+        "title": "HTML 5"
+      }
+    ],
+    "deployLink": "https://recipes-app-sy.vercel.app/",
+    "repositoryLink": "https://github.com/selienyorbandi/Recipes-App"
+  },
+  {
+    "id": 4,
+    "title": "Green Buddies",
+    "description": "Es un e-commerce de productos ecológicos, sostenibles y sustentables.",
+    "description_list": [
+      "Trabajo en equipo mediante metodologías ágiles (SCRUM, Kanban)",
+      "Responsividad en distintas resoluciones",
+      "Hecho con Angular 2 y Bootstrap"
+    ],
+    "images": [
+      {
+        "id": 1,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index.png",
+        "alt": "Inicio de Green Buddies"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index2.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index2.png",
+        "alt": "Inicio de Green Buddies"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 109,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
+        "alt": "Angular 2",
+        "title": "Angular"
+      },
+      {
+        "id": 108,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "alt": "Typescript",
+        "title": "Typescript"
+      },
+      {
+        "id": 110,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
+        "alt": "Bootstrap",
+        "title": "Bootstrap"
+      },
+      {
+        "id": 112,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
+        "alt": "Sass",
+        "title": "Sass"
+      },
+      {
+        "id": 103,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "alt": "CSS 3. Css modules",
+        "title": "CSS 3"
+      },
+      {
+        "id": 107,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "alt": "HTML 5. Semantic HTML",
+        "title": "HTML 5"
+      }
+    ],
+    "deployLink": "https://greenbuddies.netlify.app/",
+    "repositoryLink": "https://github.com/PPROF2-2022ProgWeb/g27-aula1-tiendaonline-g27"
+  },
+  {
+    "id": 5,
+    "title": "Portfolio",
+    "description": "El sitio en el que actualmente te encuentras, un resúmen sobre mí",
+    "description_list": [
+      "Realizado en React Js con Typescript",
+      "Test unitarios con Jest y React Testing Library",
+      "Implementación bilingüe mediante FormatJs",
+      "Uso y adaptación de la librería SwiperJS"
+    ],
+    "images": [
+      {
+        "id": 1,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/portfolio/index.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/portfolio/index.png",
+        "alt": "Inicio"
+      }
+    ],
+    "technologies": [
+      {
+        "id": 101,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "alt": "React JS. Hooks.",
+        "title": "React JS"
+      },
+      {
+        "id": 108,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "alt": "Typescript",
+        "title": "Typescript"
+      },
+      {
+        "id": 111,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
+        "alt": "Jest",
+        "title": "Jest"
+      },
+      {
+        "id": 103,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "alt": "CSS 3. Css modules",
+        "title": "CSS 3"
+      },
+      {
+        "id": 107,
+        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "alt": "HTML 5. Semantic HTML",
+        "title": "HTML 5"
+      }
+    ],
+    "deployLink": "#",
+    "repositoryLink": "https://github.com/selienyorbandi/selienyorbandi-portfolio"
+  }
+]

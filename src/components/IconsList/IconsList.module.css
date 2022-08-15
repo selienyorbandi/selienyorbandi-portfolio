@@ -1,0 +1,29 @@
+.IconsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.IconsList li {
+    position: relative;
+}
+
+.IconsList li img {
+    width: 60px;
+    height: 60px;
+}
+
+.IconsList li p {
+    opacity: 0;
+    background: #222222;
+    color: #eee;
+    padding: .1rem .3rem;
+    position: absolute;
+    top: -30px;
+    font-size: 1rem;
+}
+
+.IconsList li:hover p {
+    opacity: 1;
+}

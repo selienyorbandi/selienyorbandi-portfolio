@@ -1,18 +1,18 @@
+import { useContext } from "react";
+import { projectContext } from "../../context/projectContext";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Pagination, EffectCoverflow } from "swiper";
 
-import portfolio from "../../assets/portfolio-desktop.jpg";
-import videoplus from "../../assets/videoplus-desktop.jpg";
-import recipesapp from "../../assets/recipesapp-desktop.jpg";
-import greenbuddies from "../../assets/greenbuddies-desktop.jpg";
-import computahorra from "../../assets/computahorra-desktop.jpg";
+import { Image } from "../../models/Image.model";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Carousel.css";
 
-function Carousel() {
+function Carousel({images} : {images: Image[]}) {
+  const { setProject } = useContext(projectContext);
+
   return (
     <div className="Carousel__Projects">
       <Swiper
@@ -36,45 +36,16 @@ function Carousel() {
         }}
         modules={[Keyboard, EffectCoverflow, Pagination]}
         className="mySwiper">
-        <SwiperSlide>
-          <img
-            className="CarouselImg"
-            src={computahorra}
-            onDoubleClick={() =>
-              window.open("https://github.com/selienyorbandi/computahorra", "_blank")
-            }
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="CarouselImg"
-            src={recipesapp}
-            onDoubleClick={() =>
-              window.open("https://github.com/selienyorbandi/Recipes-App", "_blank")
-            }
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="CarouselImg"
-            src={greenbuddies}
-            onDoubleClick={() =>
-              window.open("https://github.com/PPROF1-2021/a5-g4-tienda-on-line", "_blank")
-            }
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="CarouselImg" src={portfolio} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="CarouselImg"
-            src={videoplus}
-            onDoubleClick={() =>
-              window.open("https://github.com/selienyorbandi/videoplus", "_blank")
-            }
-          />
-        </SwiperSlide>
+        {
+          images.map(image => <SwiperSlide key={image.id}>
+            <img
+              className="CarouselImg"
+              src={image.imgSrc}
+              alt={image.alt}
+              onClick={() => setProject(image.id)}
+            />
+          </SwiperSlide>)
+        }
       </Swiper>
     </div>
   );

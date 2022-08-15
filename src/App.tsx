@@ -4,18 +4,21 @@ import ContactContainer from "./containers/ContactContainer/ContactContainer";
 import HomeContainer from "./containers/HomeContainer/HomeContainer";
 import ProjectsContainer from "./containers/ProjectsContainer/ProjectsContainer";
 import { LangProvider } from "./context/langContext";
+import { ProjectProvider } from "./context/projectContext";
 
 function App(): JSX.Element {
   return (
     <LangProvider>
-      <div className="App">
-        <Navbar />
-        <main>
-          <HomeContainer />
-          <ProjectsContainer />
-          <ContactContainer />
-        </main>
-      </div>
+      <ProjectProvider>
+        <div className="App">
+          <Navbar />
+          <main>
+            <HomeContainer />
+            <ProjectsContainer />
+            <ContactContainer />
+          </main>
+        </div>
+      </ProjectProvider>
     </LangProvider>
   );
 }

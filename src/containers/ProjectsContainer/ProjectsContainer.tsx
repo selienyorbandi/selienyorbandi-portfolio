@@ -1,15 +1,20 @@
+import { useContext } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
-import Button from "../../components/Button/Button";
-import Carousel from "../../components/Carousel/Carousel";
-import Header from "../../components/Header/Header";
-import styles from "./ProjectsContainer.module.css";
+import { projectContext } from "../../context/projectContext";
 
-function handleClick() {
-  window.open("https://github.com/selienyorbandi", "_blank");
-}
+import { getProject } from "../../services/getProject";
+
+import ProjectContainer from "../ProjectContainer/ProjectContainer";
+import Button from "../../components/Button/Button";
+import Header from "../../components/Header/Header";
+import Carousel from "../../components/Carousel/Carousel";
+
+import mainProjectsImg from "../../assets/json/main-projects.json";
+import styles from "./ProjectsContainer.module.css";
 
 function ProjectsContainer(): JSX.Element {
   const intl = useIntl();
+  const { currentProject, isSelected } = useContext(projectContext);
 
   return (
     <section className={styles.Projects} id="projects">
@@ -21,9 +26,16 @@ function ProjectsContainer(): JSX.Element {
         />
       </p>
       <div>
-        <Carousel />
+        <Carousel images={mainProjectsImg} />
       </div>
-      <Button textId="projects.seemore" defaultText="See more projects" onClickFn={handleClick} />
+      <a
+        href="https://github.com/selienyorbandi"
+        target="_blank"
+        rel="noreferrer"
+        className={styles.Projects__AllProjects}>
+        <Button textId="projects.seemore" defaultText="See more projects" />
+      </a>
+      {isSelected && <ProjectContainer project={getProject(currentProject)} />}
     </section>
   );
 }
