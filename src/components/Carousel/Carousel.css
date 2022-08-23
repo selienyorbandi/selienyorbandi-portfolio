@@ -49,18 +49,44 @@
   }
 }
 
+/* Small Laptop */
 @media screen and (min-width: 900px) and (min-height: 400px) {
   .Carousel__Projects .CarouselImg {
-    max-width: none;
+    max-width: 500px;
   }
 
   .Carousel__Projects .swiper-container {
     max-width: none;
   }
+  .Carousel__Projects .swiper-pagination {
+    position: relative;
+    margin: .5rem 0;
+  }
+  .Carousel__Projects .swiper-slide {
+    transform: scale(0.6);
+    max-width: none;
+  }
 
+  .Carousel__Projects .swiper-slide-active {
+    transform: scale(0.8);
+  }
+
+  .Carousel__Projects .swiper-slide-prev,
+  .Carousel__Projects .swiper-slide-next {
+    transform: scale(0.7);
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .Carousel__Projects .CarouselImg {
+    max-width: none;
+  }
+  .Carousel__Projects .swiper-pagination {
+    margin: 1.5rem 0;
+  }
   .Carousel__Projects .swiper-slide {
     transform: scale(0.7);
-    max-width: none;
   }
 
   .Carousel__Projects .swiper-slide-active {

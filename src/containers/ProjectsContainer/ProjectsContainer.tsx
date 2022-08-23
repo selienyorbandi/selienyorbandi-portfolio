@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { projectContext } from "../../context/projectContext";
 
@@ -25,7 +25,7 @@ function ProjectsContainer(): JSX.Element {
           defaultMessage="Double click on each project for more details"
         />
       </p>
-      <div>
+      <div className={styles.Projects__Carousel}>
         <Carousel images={mainProjectsImg} />
       </div>
       <a
@@ -35,7 +35,7 @@ function ProjectsContainer(): JSX.Element {
         className={styles.Projects__AllProjects}>
         <Button textId="projects.seemore" defaultText="See more projects" />
       </a>
-      {isSelected && <ProjectContainer project={getProject(currentProject)} />}
+      {isSelected && <ProjectContainer project={getProject(currentProject)}/>}
     </section>
   );
 }

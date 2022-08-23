@@ -26,13 +26,30 @@
   opacity: .2;
 }
 
+/* Small Laptop */
 @media screen and (min-width: 900px) and (min-height: 400px) {
   .Projects {
     margin-bottom: 20px;
-    min-height: 100vh;
+    min-height: 90vh;
+    scroll-margin-top: 44px;
+  }
+
+  .Projects__Instructions {
+    font-size: calc(1.5rem + 0.9vh);
+    padding: 1.5rem;
+  }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .Projects {
+    scroll-margin-top: 50px;
   }
 
   .Projects__Instructions {
     font-size: calc(1.7rem + 0.9vh);
+    padding: 3rem;
   }
+
 }

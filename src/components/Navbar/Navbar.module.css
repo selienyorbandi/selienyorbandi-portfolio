@@ -50,6 +50,7 @@
   display: none;
 }
 
+/* Small Laptop */
 @media screen and (min-width: 900px) and (min-height: 400px) {
   .Navbar__Mobile {
     display: none;
@@ -60,7 +61,7 @@
     z-index: 1090;
     top: 0;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +71,7 @@
   .Navbar__Desktop__List {
     display: flex;
     gap: 2rem;
-    font-size: calc(1rem + 1vw);
+    font-size: calc(.8rem + 1vw);
     font-weight: 300;
     color: var(--secondaryFontColor);
   }
@@ -108,8 +109,8 @@
   }
 
   .Navbar__Desktop img {
-    height: 100%;
-    cursor: pointer;
+    height: calc(1.5rem + 1vw);
+    margin-top: calc((1.5rem + 1vw) / 5);
   }
 
   .Navbar__Desktop__SideContent {
@@ -129,11 +130,38 @@
     padding: 9px 23px;
     text-decoration: none;
     text-shadow: 0px -1px 0px #cc08bf;
-    font-size: calc(0.4rem + 1vw);
+    font-size: calc(0.3rem + 1vw);
   }
 
   .Navbar__Desktop__CV:active {
     position: relative;
     top: 1px;
   }
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .Navbar__Desktop {
+    padding: 1rem 2rem;
+  }
+
+  .Navbar__Desktop__List {
+    font-size: calc(1rem + 1vw);
+  }
+
+  .Navbar__Desktop img {
+    height: 100%;
+  }
+  
+  .Navbar__Desktop__CV {
+    box-shadow: inset 0px 34px 0px -9px #e66b00;
+    background-color: #ff7b00;
+    border: 1px solid #4d2400;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 9px 23px;
+    font-size: calc(0.4rem + 1vw);
+  }
+
 }

@@ -15,16 +15,16 @@ function ProjectContainer({project} : {project: Project | null }) {
   const projectSelectorRef = useRef<HTMLDivElement>(null);
 
   useOnClickOutside(projectSelectorRef, () => closeProject());
-
+  
   return (
     isSelected ? 
-      <div className={styles.ProjectContainer__background}>
-        <article className={styles.ProjectContainer} ref={projectSelectorRef}>
+      <div className={styles.ProjectContainer__background} >
+        <article className={styles.ProjectContainer} ref={projectSelectorRef} >
           {
             project !== null &&
         <>
           <div className={styles.ProjectContainer__ExitBtn} onClick={()=> closeProject()}>&#10006;</div>
-          <div className={styles.ProjectContainer__Content}>
+          <div className={styles.ProjectContainer__Content} >
             <h2>{project.title}</h2>
             <p>{project.description}</p>
             <ul className={styles.ProjectContainer__DescriptionList}>

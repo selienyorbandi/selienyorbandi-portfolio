@@ -14,9 +14,16 @@ function ProjectProvider({ children }: { children: JSX.Element }): JSX.Element {
   const [currentProject, setCurrentProject] = useState(1);
   const [isSelected, setIsSelected] = useState(false);
 
+  const scrollToView = () => {
+    /* ProjectContainer have position absolute, so I have to scroll to its parent container (projects) */
+    const view = document.getElementById("projects");
+    view?.scrollIntoView();
+  };
+
   const setProject = (id: number) => {
     setCurrentProject(id);
     setIsSelected(true);
+    scrollToView();
     return undefined;
   };
   
@@ -32,6 +39,7 @@ function ProjectProvider({ children }: { children: JSX.Element }): JSX.Element {
       setCurrentProject(5);
     }
     setIsSelected(true);
+    scrollToView();
     return undefined;
   };
 
@@ -42,6 +50,7 @@ function ProjectProvider({ children }: { children: JSX.Element }): JSX.Element {
       setCurrentProject(1);
     }
     setIsSelected(true);
+    scrollToView();
     return undefined;
   };
 

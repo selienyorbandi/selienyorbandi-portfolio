@@ -4,8 +4,7 @@
     "title": "Computahorra",
     "description": "Computahorra is not just a digital store for computer products. Find out what makes it unique:",
     "description_list": [
-      "Search function",
-      "Filter by categories",
+      "Search function and filter by categories",
       "Authentication with email, google and facebook",
       "Firebase API consumption",
       "Responsiveness in different resolutions",

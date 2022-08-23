@@ -44,6 +44,9 @@
 }
 
 @media screen and (min-width: 900px) and (min-height: 600px) {
+  .ContactContainer {
+    scroll-margin-top: 44px;
+  }
   .ContactContainer__Moreoptions__DecoImg {
     width: calc(280px + 4vw);
     height: auto;

@@ -49,14 +49,14 @@
   }
 }
 
-/* Desktop */
-@media screen and (min-width: 900px) and (min-height: 400px) {
+/* Small Laptop */
+@media screen and (min-width: 900px) and (min-height: 500px) {
   .Header {
     margin: 0;
   }
 
   .Header__Main {
-    margin-top: 80px;
+    margin-top: 66px;
   }
 
   .Header span {
@@ -65,9 +65,21 @@
 
   .Header h1,
   .Header h2 {
-    padding: 3rem 2rem;
+    padding: 1.5rem 2rem;
     align-items: flex-start;
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: 500;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .Header h1,
+  .Header h2 {
+    padding: 3rem 2rem;
+    font-size: 3rem;
+  }
+  .Header__Main {
+    margin-top: 80px;
   }
 }

@@ -32,17 +32,21 @@
   }
 }
 
-/* Desktop */
-@media screen and (min-width: 900px) and (min-height: 400px) {
+/* Small Laptop */
+@media screen and (min-width: 900px) and (min-height: 500px) {
+  .Home {
+    min-height: 91vh;
+  }
   .Home__Content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 2rem;
   }
 
   .Home__Content p {
     width: 50%;
-    font-size: calc(2rem + 1vw);
+    font-size: calc(1.8rem + 1vw);
     font-weight: 300;
   }
 
@@ -51,6 +55,14 @@
     display: flex;
     justify-self: flex-end;
     align-self: flex-end;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) and (min-height: 700px) {
+  .Home__Content p {
+    font-size: calc(2rem + 1vw);
+    font-weight: 300;
   }
 }
 

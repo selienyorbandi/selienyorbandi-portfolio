@@ -11,7 +11,7 @@ import styles from "./ContactContainer.module.css";
 
 function ContactContainer(): JSX.Element {
   return (
-    <section id="contact" className={styles.ContactContainer}>
+    <section id="contact" className={styles.ContactContainer} >
       <div className={styles.ContactContainer__Form}>
         <ContactForm />
       </div>

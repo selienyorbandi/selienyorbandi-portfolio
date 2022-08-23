@@ -4,8 +4,7 @@
     "title": "Computahorra",
     "description": "Computahorra no es solo una tienda digital de productos de informática. Descubrí qué la hace única:",
     "description_list": [
-      "Función de búsqueda",
-      "Filtro por categorías",
+      "Función de búsqueda y filtro por categorías",
       "Autenticación con email, google y facebook",
       "Consumo de la API de Firebase",
       "Responsividad en distintas resoluciones",

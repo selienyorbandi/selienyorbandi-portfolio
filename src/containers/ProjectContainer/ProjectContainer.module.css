@@ -8,7 +8,7 @@
 
 .ProjectContainer {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
@@ -105,9 +105,11 @@
 .ProjectContainer__PrevSlide:hover, .ProjectContainer__NextSlide:hover {
     color: var(--mainFontColor);
 }
-
+/* Tablet */
 @media screen and (min-width: 500px) and (min-height: 500px) {
-    
+    .ProjectContainer {
+        top: 67%;
+    }
     .ProjectContainer__Content {
         text-align: justify;
         hyphens: auto;
@@ -129,14 +131,18 @@
 
 }
 
+/* Small Laptop */
 @media screen and (min-width: 900px) and (min-height: 400px) {
     .ProjectContainer {
         flex-direction: row-reverse;
-        padding: 4rem;
+        padding: 2rem;
+        top: 50%;
     }
     
     .ProjectContainer__ExitBtn {
         transform: scale(1.2);
+        right: 30px;
+        top: 20px;
     }
     
     .ProjectContainer__Slides {
@@ -164,7 +170,14 @@
         font-size: 3rem;
     }
 }
-
+/* Desktop */
+@media screen and (min-width: 900px) and (min-height: 700px) {
+    .ProjectContainer {
+        flex-direction: row-reverse;
+        padding: 4rem;
+    }
+}
+/* Large Desktop */
 @media screen and (min-width: 1200px) and (min-height: 400px) {
     .ProjectContainer__Slides {
         width: 600px;
