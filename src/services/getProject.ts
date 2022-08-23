@@ -6,7 +6,7 @@ import projectsEn from "../assets/json/projects-en.json";
 export function getProject(id: number) {
   
   const { locale } = useContext(langContext);
-  const projects = locale === "es-ES" ? projectsEs : projectsEn;
+  const projects = locale === "es-AR" ? projectsEs : projectsEn;
   const project = projects.filter(project => id === project.id);
   if (project != undefined) {
     return project[0];
