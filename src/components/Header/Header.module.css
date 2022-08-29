@@ -38,11 +38,18 @@
 /* Large mobile / Tablet */
 @media screen and (max-width: 900px) and (min-height: 698px) {
 
-  .Header h1,
+  .Header__Main h1,
   .Header h2 {
-    font-size: calc(1.5rem + 0.8vh);
     padding: calc(1rem + 1.6vh);
     line-height: calc(2.5rem + 0.8vh);
+  }
+
+  .Header__Main h1 {
+    font-size: calc(1.5rem + 0.8vh);
+  }
+
+  .Header h2 {
+    font-size: calc(1.5rem + 2vh);
   }
 
   .Header span {
@@ -77,13 +84,14 @@
     line-height: normal;
     color: var(--mainFontColor);
   }
-  
+
 }
 
 /* Desktop */
 @media screen and (min-width: 1600px) and (min-height: 700px) {
 
-  .Header h1, .Header h2 {
+  .Header h1,
+  .Header h2 {
     padding: 0 6rem;
   }
 

@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import AboutMeContainer from "./containers/AboutMeContainer/AboutMeContainer";
 import ContactContainer from "./containers/ContactContainer/ContactContainer";
 import HomeContainer from "./containers/HomeContainer/HomeContainer";
 import ProjectsContainer from "./containers/ProjectsContainer/ProjectsContainer";
@@ -14,6 +15,7 @@ function App(): JSX.Element {
           <Navbar />
           <main>
             <HomeContainer />
+            <AboutMeContainer />
             <ProjectsContainer />
             <ContactContainer />
           </main>

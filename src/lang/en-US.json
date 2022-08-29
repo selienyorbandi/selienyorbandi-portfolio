@@ -15,6 +15,8 @@
   "project.technologies": "Technologies",
   "project.deployBtnLink": "Go to site",
   "project.repositoryBtnLink": "See source code",
+  "aboutme.title": "About me",
+  "aboutme.techs": "Tecnologies",
   "contact.form.title": "Get in Touch",
   "contact.form.name": "Name",
   "contact.form.email": "Email",

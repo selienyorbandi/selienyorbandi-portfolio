@@ -62,9 +62,9 @@ function Navbar(): JSX.Element {
         </ul>
       </nav>
       <nav className={styles.Navbar__Desktop}>
-        <div>
+        <a href="#">
           <img src={brandlogo} alt="Selien Yorbandi" />
-        </div>
+        </a>
         <ul className={styles.Navbar__Desktop__List}>
           <li>
             <a href="#" onClick={() => window.scroll(0, 0)}>

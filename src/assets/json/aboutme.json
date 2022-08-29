@@ -1,0 +1,115 @@
+{
+    "es": [
+        "¡Hola! Me llamo Selien Yorbandi y soy desarrollador web especializado en Frontend.",
+        "Ser proactivo, pragmático y ordenado me ha llevado a brindar soluciones eficientes, creativas y elegantes a las diversas problemáticas del mundo tecnológico de hoy.",
+        "Tengo experiencia con sitios web dinámicos, accesibles, mantenibles, escalables y, sobre todo, orientados a la buena experiencia de usuario.",
+        "Comencé a estudiar autodidacta, realicé bootcamps, me inscribí a una Tecnicatura de nivel Terciario en Desarrollo Web y a la Licenciatura en Ciencias de la Computación del FAMAF.",
+        "Escribo el código que le da vida al diseño y ofrezco funcionalidad para que la experiencia de usuario sea excelente en celulares, tablets y computadoras de escritorio."    ],
+    "en": [
+        "Hi! My name is Selien Yorbandi and I’m a web developer specialized in Frontend.",
+        "Being proactive, pragmatic and organized has led me to deliver efficient, creative and elegant solutions to the variety of problems in today's technological world.",
+        "I have expertise with dynamic, accessible, maintainable, scalable and, most importantly, valuable experience towards oriented websites for good user experience.",
+        "Since the very beginning, I was self-taught, took bootcamps, enrolled in a technical degree in Web Development and a Bachelor's Degree in Computer Science at FAMAF.",
+        "I write the code that gives shape to the design and offers functionality so that the user experience is excellent and easy-going on cell phones, tablets and desktop computers."
+    ],
+    "technologies": [
+        {
+            "id": 200,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+            "alt": "HTML 5. Semantic HTML",
+            "title": "HTML 5"
+        },
+        {
+            "id": 201,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+            "alt": "CSS 3. Css modules",
+            "title": "CSS 3"
+        },
+        {
+            "id": 202,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
+            "alt": "Sass",
+            "title": "Sass"
+        },
+        {
+            "id": 203,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
+            "alt": "Bootstrap",
+            "title": "Bootstrap"
+        },
+        {
+            "id": 204,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+            "alt": "Javascript. ECMA 6+",
+            "title": "Javascript"
+        },
+        {
+            "id": 205,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+            "alt": "Typescript",
+            "title": "Typescript"
+        },
+        {
+            "id": 206,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+            "alt": "React JS. Hooks.",
+            "title": "React JS"
+        },
+        {
+            "id": 207,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
+            "alt": "Jest",
+            "title": "Jest"
+        },
+        {
+            "id": 208,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
+            "alt": "Angular 14",
+            "title": "Angular"
+        },
+        {
+            "id": 209,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
+            "alt": "Firebase. Firestore. Firebase auth",
+            "title": "Firebase"
+        },
+        {
+            "id": 210,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/mysql-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/mysql-tech.png",
+            "alt": "MySql",
+            "title": "MySql"
+        },
+        {
+            "id": 211,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/java-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/java-tech.png",
+            "alt": "Java SE",
+            "title": "Java SE"
+        },
+        {
+            "id": 212,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/photoshop-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/photoshop-tech.png",
+            "alt": "Photoshop",
+            "title": "Photoshop"
+        },
+        {
+            "id": 213,
+            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/figma-tech.png",
+            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/figma-tech.png",
+            "alt": "Figma",
+            "title": "Figma"
+        }
+    ]
+}

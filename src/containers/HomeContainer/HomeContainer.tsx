@@ -1,5 +1,5 @@
 import { FormattedMessage, useIntl } from "react-intl";
-import homeImg from "../../assets/home-img.jpg";
+import homeImg from "../../assets/selienyorbandi.png";
 import DownBtn from "../../components/DownBtn/DownBtn";
 import Header from "../../components/Header/Header";
 import styles from "./HomeContainer.module.css";
@@ -22,7 +22,7 @@ function HomeContainer(): JSX.Element {
             <img src={homeImg} loading="lazy" alt="Developer" />
           </div>
         </div>
-        <DownBtn link="#projects" />
+        <DownBtn link="#aboutme" />
       </section>
     </>
   );
