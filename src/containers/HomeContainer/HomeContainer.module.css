@@ -1,12 +1,20 @@
+.Home {
+  min-height: 95vh;
+}
+
 .Home__Content {
   width: 100%;
   color: var(--mainFontColor);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .Home__Content p {
   padding: 1.5rem 2rem;
   opacity: 0;
   animation: fadeee 1s forwards;
+  font-size: calc(0.9rem + .2vh);
 }
 
 @keyframes fadeee {
@@ -17,58 +25,66 @@
 
 .Home__Content div {
   width: 100%;
-  background: var(--mainFontColor);
+  display: flex;
+  justify-content: center;
 }
 
 .Home__Content img {
   width: 100%;
+  max-width: 300px;
 }
 
 /* Large mobile */
-@media screen and (max-width: 900px) and (min-height: 698px) {
+@media screen and (max-width: 900px) and (min-height: 600px) {
   .Home__Content p {
     padding: calc(1.5rem + 2.5vh) 2rem;
-    font-size: calc(0.9rem + 0.9vh);
+    font-size: calc(0.9rem + 1.2vh);
   }
 }
 
-/* Small Laptop */
-@media screen and (min-width: 900px) and (min-height: 500px) {
-  .Home {
-    min-height: 91vh;
+/* Tablet */
+@media screen and (min-width: 500px) and (min-height: 600px) {
+  .Home__Content p {
+    font-size: calc(0.9rem + 2vw + 1vh);
   }
-  .Home__Content {
+}
+
+/* Sm Laptop */
+@media screen and (min-width: 900px) and (min-height: 600px) {
+  .Home {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .Home__Content {
+    gap: 2rem;
+    padding: 0 2rem;
   }
 
   .Home__Content p {
-    width: 50%;
-    font-size: calc(1.8rem + 1vw);
     font-weight: 300;
   }
+}
 
-  .Home__Content div {
-    width: 50%;
-    display: flex;
-    justify-self: flex-end;
-    align-self: flex-end;
+/* Md Laptop */
+@media screen and (min-width: 1300px) and (min-height: 600px) {
+  .Home__Content {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
   }
 }
 
 /* Desktop */
-@media screen and (min-width: 900px) and (min-height: 700px) {
-  .Home__Content p {
-    font-size: calc(2rem + 1vw);
-    font-weight: 300;
-  }
-}
-
-/* Large Desktop */
-@media screen and (min-width: 1400px) and (min-height: 400px) {
+@media screen and (min-width: 1600px) and (min-height: 700px) {
   .Home__Content {
-    padding-top: 3rem;
+    padding: 0 4rem;
   }
+
+  .Home__Content img {
+    width: 100%;
+    max-width: 500px;
+  }
+
 }

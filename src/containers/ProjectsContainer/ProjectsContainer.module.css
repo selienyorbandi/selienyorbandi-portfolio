@@ -16,7 +16,7 @@
   padding-bottom: 2rem;
 }
 
-.Projects__AllProjects{
+.Projects__AllProjects {
   font-size: 1.3rem;
   padding: 9px 23px;
   align-self: center;
@@ -31,7 +31,7 @@
   .Projects {
     margin-bottom: 20px;
     min-height: 90vh;
-    scroll-margin-top: 44px;
+    scroll-margin-top: 70px;
   }
 
   .Projects__Instructions {
@@ -39,17 +39,29 @@
     padding: 1.5rem;
   }
 
+  .Projects__DownBtn {
+    margin: auto;
+    margin-top: 1.5rem;
+  }
+
 }
 
 /* Desktop */
 @media screen and (min-width: 900px) and (min-height: 700px) {
-  .Projects {
-    scroll-margin-top: 50px;
-  }
-
   .Projects__Instructions {
     font-size: calc(1.7rem + 0.9vh);
     padding: 3rem;
   }
 
+}
+
+/* Lg Desktop */
+@media screen and (min-width: 1400px) {
+  .Projects {
+    scroll-margin-top: 100px;
+  }
+
+  .Projects__DownBtn {
+    margin-top: 3rem;
+  }
 }

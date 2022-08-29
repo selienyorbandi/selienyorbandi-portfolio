@@ -61,7 +61,7 @@
     z-index: 1090;
     top: 0;
     width: 100%;
-    padding: .5rem 2rem;
+    padding: .5rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,10 +139,10 @@
   }
 }
 
-/* Desktop */
+/* Sm Laptop */
 @media screen and (min-width: 900px) and (min-height: 700px) {
   .Navbar__Desktop {
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
   }
 
   .Navbar__Desktop__List {
@@ -164,4 +164,18 @@
     font-size: calc(0.4rem + 1vw);
   }
 
+}
+
+/* Md Laptop */
+@media screen and (min-width: 1300px) and (min-height: 600px) {
+  .Navbar__Desktop {
+    padding: 1rem 4rem;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1600px) and (min-height: 700px) {
+  .Navbar__Desktop {
+    padding: 1rem 6rem;
+  }
 }

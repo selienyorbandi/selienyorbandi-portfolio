@@ -270,7 +270,8 @@
     "description_list": [
       "Teamwork using agile methodologies (SCRUM, Kanban)",
       "Responsiveness in different resolutions",
-      "Made with Angular 2 and Bootstrap"
+      "Admin Dashboard",
+      "Made with Angular 14 and Bootstrap 5"
     ],
     "images": [
       {
@@ -291,7 +292,7 @@
         "id": 109,
         "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
         "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
-        "alt": "Angular 2",
+        "alt": "Angular 14",
         "title": "Angular"
       },
       {
@@ -306,7 +307,7 @@
         "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
         "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
         "alt": "Bootstrap",
-        "title": "Bootstrap"
+        "title": "Bootstrap 5"
       },
       {
         "id": 112,

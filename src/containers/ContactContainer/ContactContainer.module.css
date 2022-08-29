@@ -43,6 +43,10 @@
   gap: 0.5rem;
 }
 
+.ContactContainer__LinkIcos a:hover{
+  filter: brightness(2.5);
+}
+
 @media screen and (min-width: 900px) and (min-height: 600px) {
   .ContactContainer {
     scroll-margin-top: 44px;

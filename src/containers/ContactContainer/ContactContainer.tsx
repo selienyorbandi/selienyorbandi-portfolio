@@ -38,6 +38,7 @@ function ContactContainer(): JSX.Element {
             <img src={telegramIco} alt="Telegram" />
           </a>
         </div>
+        <p>selienyorbandi@gmail.com</p>
       </div>
     </section>
   );

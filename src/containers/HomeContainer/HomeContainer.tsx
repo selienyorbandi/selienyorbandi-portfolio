@@ -1,11 +1,12 @@
 import { FormattedMessage, useIntl } from "react-intl";
-import gif from "../../assets/aboutme.gif";
+import homeImg from "../../assets/home-img.jpg";
+import DownBtn from "../../components/DownBtn/DownBtn";
 import Header from "../../components/Header/Header";
 import styles from "./HomeContainer.module.css";
 
 function HomeContainer(): JSX.Element {
   const intl = useIntl();
-  
+
   return (
     <>
       <section className={styles.Home} id="home">
@@ -18,9 +19,10 @@ function HomeContainer(): JSX.Element {
             />
           </p>
           <div>
-            <img src={gif} loading="lazy" alt="Developer" />
+            <img src={homeImg} loading="lazy" alt="Developer" />
           </div>
         </div>
+        <DownBtn link="#projects" />
       </section>
     </>
   );
