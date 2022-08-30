@@ -50,7 +50,7 @@ function Navbar(): JSX.Element {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/10r-kLdMN2YP-wJMaRsy0LSHLKtcuumah"
+              href="https://drive.google.com/file/d/15YGrTROFu_eSRAkjQGM54acQxbKTOL_M/view?usp=sharing"
               target="_blank"
               rel="noreferrer">
               <span>
