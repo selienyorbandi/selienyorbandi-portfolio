@@ -8,9 +8,12 @@ import cv from "../../assets/cv-ico.png";
 import styles from "./Navbar.module.css";
 import { FormattedMessage, useIntl } from "react-intl";
 import LangSelector from "../LangSelector/LangSelector";
+import { useContext } from "react";
+import { langContext } from "../../context/langContext";
 
 function Navbar(): JSX.Element {
   const intl = useIntl();
+  const { locale } = useContext(langContext);
 
   return (
     <>
@@ -50,7 +53,11 @@ function Navbar(): JSX.Element {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/15YGrTROFu_eSRAkjQGM54acQxbKTOL_M/view?usp=sharing"
+              href={
+                locale === "es-AR"
+                  ? "https://drive.google.com/file/d/1eqH6U9HXW-e2NxbNhmQFWcl4MKIiJnUP/view?usp=sharing"
+                  : "https://drive.google.com/file/d/16uRouKKizGFhgM0O5pSq5qcGncMHEOzD/view?usp=sharing"
+              }
               target="_blank"
               rel="noreferrer">
               <span>
@@ -90,7 +97,11 @@ function Navbar(): JSX.Element {
         <div className={styles.Navbar__Desktop__SideContent}>
           <LangSelector />
           <a
-            href="https://drive.google.com/file/d/10r-kLdMN2YP-wJMaRsy0LSHLKtcuumah"
+            href={
+              locale === "es-AR"
+                ? "https://drive.google.com/file/d/1eqH6U9HXW-e2NxbNhmQFWcl4MKIiJnUP/view?usp=sharing"
+                : "https://drive.google.com/file/d/16uRouKKizGFhgM0O5pSq5qcGncMHEOzD/view?usp=sharing"
+            }
             target="_blank"
             rel="noreferrer">
             <button className={styles.Navbar__Desktop__CV}>
