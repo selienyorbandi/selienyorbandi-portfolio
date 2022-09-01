@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap");
+
 :root {
   --mainBgColor: #ffffff;
   --mainFontColor: #002d3e;
   --secondaryBgColor: #002d3e;
   --secondaryFontColor: #ffffff;
-  --thirdBgColor: #ff7a00;
+  --thirdBgColor: #007C9E;
   --thirdFontColor: #ffffff;
   --thirdFontColorAlt: #b1b1b1;
-  --neutralBgColor: #dddddd;
-  --neutralFontColor: #5a6669;
+  --neutralBgColor: #E6E6E6;
+  --neutralFontColor: #424B4D;
 }
 
 * {

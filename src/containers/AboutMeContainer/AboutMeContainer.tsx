@@ -6,7 +6,7 @@ import Header from "../../components/Header/Header";
 import IconsList from "../../components/IconsList/IconsList";
 
 import aboutMe from "../../assets/json/aboutme.json";
-import aboutmeImg from "../../assets/aboutme-img.jpg";
+import aboutmeImg from "../../assets/aboutme-img.webp";
 import styles from "./AboutMeContainer.module.css";
 
 function AboutMeContainer(): JSX.Element {

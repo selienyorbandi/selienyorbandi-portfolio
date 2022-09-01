@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Carousel.css";
 
-function Carousel({images} : {images: Image[]}) {
+function Carousel({ images }: { images: Image[] }) {
   const { setProject } = useContext(projectContext);
 
   return (
@@ -36,16 +36,16 @@ function Carousel({images} : {images: Image[]}) {
         }}
         modules={[Keyboard, EffectCoverflow, Pagination]}
         className="mySwiper">
-        {
-          images.map(image => <SwiperSlide key={image.id}>
+        {images.map(image => (
+          <SwiperSlide key={image.id}>
             <img
               className="CarouselImg"
               src={image.imgSrc}
               alt={image.alt}
               onClick={() => setProject(image.id)}
             />
-          </SwiperSlide>)
-        }
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
