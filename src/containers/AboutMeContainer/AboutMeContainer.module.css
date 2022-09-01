@@ -36,7 +36,15 @@
 }
 
 .AboutMe__Techs ul {
-    gap: 2rem;
+    gap: .5rem;
+}
+
+/* Large mobile */
+@media screen and (max-width: 900px) and (min-height: 800px) {
+    .AboutMe__Content p {
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
 }
 
 /* Tablet */
@@ -90,7 +98,8 @@
     }
 
     .AboutMe__Techs ul {
-        gap: 1.8rem;
+        row-gap: 1rem;
+        column-gap: 0;
     }
 
     .AboutMe__DownBtn {
@@ -132,7 +141,7 @@
         padding: 2rem 2rem 0 2rem;
     }
 
-    .AboutMe__Techs ul {
-        gap: 4rem;
+    .AboutMe__Content ul {
+        justify-content: space-around;
     }
 }
