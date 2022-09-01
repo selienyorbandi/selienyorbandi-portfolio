@@ -13,80 +13,80 @@
     "images": [
       {
         "id": 1,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/index.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/index.png",
         "alt": "Página de inicio de Computahorra"
       },
       {
         "id": 2,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index2.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/index2.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/index2.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/index2.png",
         "alt": "Página de inicio de Computahorra"
       },
       {
         "id": 3,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/categories.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/categories.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/categories.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/categories.png",
         "alt": "Vista de Categorías en Computahorra"
       },
       {
         "id": 4,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/productitem.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/productitem.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/productitem.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/productitem.png",
         "alt": "Detalle de cada producto"
       },
       {
         "id": 5,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/loginregister.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/loginregister.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/loginregister.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/loginregister.png",
         "alt": "Inicio de sesión y registro"
       },
       {
         "id": 6,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/cart.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/cart.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/cart.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/cart.png",
         "alt": "Carrito de compra"
       },
       {
         "id": 7,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/checkout.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/computahorra/checkout.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/checkout.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/computahorra/checkout.png",
         "alt": "Fase de pago"
       }
     ],
     "technologies": [
       {
         "id": 101,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
         "alt": "React JS. Hooks.",
         "title": "React JS"
       },
       {
         "id": 100,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/js-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/js-tech.png",
         "alt": "Javascript. ECMA 6+",
         "title": "Javascript"
       },
       {
         "id": 102,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/firebase-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/firebase-tech.png",
         "alt": "Firebase. Firestore. Firebase auth",
         "title": "Firebase"
       },
       {
         "id": 103,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
         "alt": "CSS 3. Css modules",
         "title": "CSS 3"
       },
       {
         "id": 104,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
         "alt": "HTML 5. Semantic HTML",
         "title": "HTML 5"
       }
@@ -108,73 +108,73 @@
     "images": [
       {
         "id": 1,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/index.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/index.png",
         "alt": "Página de inicio de Videoplus"
       },
       {
         "id": 2,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index2.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/index2.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/index2.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/index2.png",
         "alt": "Página de inicio de Videoplus"
       },
       {
         "id": 3,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/peliculas-series.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/peliculas-series.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/peliculas-series.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/peliculas-series.png",
         "alt": "Páginas de películas y series"
       },
       {
         "id": 4,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/generos.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/generos.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/generos.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/generos.png",
         "alt": "Filtro por géneros y categorías"
       },
       {
         "id": 5,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/details.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/details.png",
         "alt": "Detalles de cada película o series"
       },
       {
         "id": 6,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details2.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/details2.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/details2.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/details2.png",
         "alt": "Detalles de cada película o series"
       },
       {
         "id": 7,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/busqueda.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/videoplus/busqueda.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/busqueda.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/videoplus/busqueda.png",
         "alt": "Función de búsqueda"
       }
     ],
     "technologies": [
       {
         "id": 101,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
         "alt": "React JS. Hooks.",
         "title": "React JS"
       },
       {
         "id": 100,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/js-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/js-tech.png",
         "alt": "Javascript. ECMA 6+",
         "title": "Javascript"
       },
       {
         "id": 103,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
         "alt": "CSS 3. Css modules",
         "title": "CSS 3"
       },
       {
         "id": 107,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
         "alt": "HTML 5. Semantic HTML",
         "title": "HTML 5"
       }
@@ -195,67 +195,67 @@
     "images": [
       {
         "id": 1,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/index.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/index.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/index.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/index.png",
         "alt": "Página de inicio de Recipes APP"
       },
       {
         "id": 2,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/search.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/search.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/search.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/search.png",
         "alt": "Búsqueda de una receta"
       },
       {
         "id": 3,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/categories.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/categories.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/categories.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/categories.png",
         "alt": "Búsqueda por categorías"
       },
       {
         "id": 4,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/recipe.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/recipe.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/recipe.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/recipe.png",
         "alt": "Vista en detalle de una receta"
       },
       {
         "id": 5,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/origin.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/origin.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/origin.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/origin.png",
         "alt": "Búsqueda por orígen de la receta"
       },
       {
         "id": 6,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/saved.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/recipesapp/saved.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/saved.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/recipesapp/saved.png",
         "alt": "Recetas guardadas para ver sin conexión"
       }
     ],
     "technologies": [
       {
         "id": 101,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
         "alt": "React JS. Hooks.",
         "title": "React JS"
       },
       {
         "id": 108,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
         "alt": "Typescript",
         "title": "Typescript"
       },
       {
         "id": 103,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
         "alt": "CSS 3. Css modules",
         "title": "CSS 3"
       },
       {
         "id": 107,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
         "alt": "HTML 5. Semantic HTML",
         "title": "HTML 5"
       }
@@ -275,57 +275,57 @@
     "images": [
       {
         "id": 1,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/greenbuddies/index.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/greenbuddies/index.png",
         "alt": "Inicio de Green Buddies"
       },
       {
         "id": 2,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index2.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/greenbuddies/index2.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/greenbuddies/index2.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/greenbuddies/index2.png",
         "alt": "Inicio de Green Buddies"
       }
     ],
     "technologies": [
       {
         "id": 109,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/angular-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/angular-tech.png",
         "alt": "Angular 14",
         "title": "Angular"
       },
       {
         "id": 108,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
         "alt": "Typescript",
         "title": "Typescript"
       },
       {
         "id": 110,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/bootstrap-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/bootstrap-tech.png",
         "alt": "Bootstrap",
         "title": "Bootstrap"
       },
       {
         "id": 112,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/sass-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/sass-tech.png",
         "alt": "Sass",
         "title": "Sass"
       },
       {
         "id": 103,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
         "alt": "CSS 3. Css modules",
         "title": "CSS 3"
       },
       {
         "id": 107,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
         "alt": "HTML 5. Semantic HTML",
         "title": "HTML 5"
       }
@@ -346,44 +346,44 @@
     "images": [
       {
         "id": 1,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/portfolio/index.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/projects/portfolio/index.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/portfolio/index.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/projects/portfolio/index.png",
         "alt": "Inicio"
       }
     ],
     "technologies": [
       {
         "id": 101,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
         "alt": "React JS. Hooks.",
         "title": "React JS"
       },
       {
         "id": 108,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
         "alt": "Typescript",
         "title": "Typescript"
       },
       {
         "id": 111,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/jest-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/jest-tech.png",
         "alt": "Jest",
         "title": "Jest"
       },
       {
         "id": 103,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
         "alt": "CSS 3. Css modules",
         "title": "CSS 3"
       },
       {
         "id": 107,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
         "alt": "HTML 5. Semantic HTML",
         "title": "HTML 5"
       }

@@ -15,99 +15,99 @@
     "technologies": [
         {
             "id": 200,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/html-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/html-tech.png",
             "alt": "HTML 5. Semantic HTML",
             "title": "HTML 5"
         },
         {
             "id": 201,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/css-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/css-tech.png",
             "alt": "CSS 3. Css modules",
             "title": "CSS 3"
         },
         {
             "id": 202,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/sass-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/sass-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/sass-tech.png",
             "alt": "Sass",
             "title": "Sass"
         },
         {
             "id": 203,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/bootstrap-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/bootstrap-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/bootstrap-tech.png",
             "alt": "Bootstrap",
             "title": "Bootstrap"
         },
         {
             "id": 204,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/js-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/js-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/js-tech.png",
             "alt": "Javascript. ECMA 6+",
             "title": "Javascript"
         },
         {
             "id": 205,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/ts-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/ts-tech.png",
             "alt": "Typescript",
             "title": "Typescript"
         },
         {
             "id": 206,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/react-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/react-tech.png",
             "alt": "React JS. Hooks.",
             "title": "React JS"
         },
         {
             "id": 207,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/jest-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/jest-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/jest-tech.png",
             "alt": "Jest",
             "title": "Jest"
         },
         {
             "id": 208,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/angular-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/angular-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/angular-tech.png",
             "alt": "Angular 14",
             "title": "Angular"
         },
         {
             "id": 209,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/firebase-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/firebase-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/firebase-tech.png",
             "alt": "Firebase. Firestore. Firebase auth",
             "title": "Firebase"
         },
         {
             "id": 210,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/mysql-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/mysql-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/mysql-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/mysql-tech.png",
             "alt": "MySql",
             "title": "MySql"
         },
         {
             "id": 211,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/java-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/java-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/java-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/java-tech.png",
             "alt": "Java SE",
             "title": "Java SE"
         },
         {
             "id": 212,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/photoshop-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/photoshop-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/photoshop-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/photoshop-tech.png",
             "alt": "Photoshop",
             "title": "Photoshop"
         },
         {
             "id": 213,
-            "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/figma-tech.png",
-            "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/Icons/technologies/figma-tech.png",
+            "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/figma-tech.png",
+            "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/Icons/technologies/figma-tech.png",
             "alt": "Figma",
             "title": "Figma"
         }

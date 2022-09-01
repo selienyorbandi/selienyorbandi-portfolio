@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/computahorra-desktop.jpg",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/computahorra-desktop.jpg",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/computahorra-desktop.jpg",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/computahorra-desktop.jpg",
         "alt": "Computahorra"
     },
     {
         "id": 2,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/videoplus-desktop.jpg",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/videoplus-desktop.jpg",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/videoplus-desktop.jpg",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/videoplus-desktop.jpg",
         "alt": "Videoplus"
     },
     {
         "id": 3,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/recipesapp-desktop.jpg",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/recipesapp-desktop.jpg",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/recipesapp-desktop.jpg",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/recipesapp-desktop.jpg",
         "alt": "Recipes App"
     },
     {
         "id": 4,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/greenbuddies-desktop.jpg",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/greenbuddies-desktop.jpg",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/greenbuddies-desktop.jpg",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/greenbuddies-desktop.jpg",
         "alt": "GreenBuddies"
     },
     {
         "id": 5,
-        "imgSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/portfolio-desktop.jpg",
-        "thumbSrc": "https://gitlab.com/selienyorbandi/assets/-/raw/main/main-projects/portfolio-desktop.jpg",
+        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/portfolio-desktop.jpg",
+        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/portfolio-desktop.jpg",
         "alt": "Portfolio"
     }
 ]
