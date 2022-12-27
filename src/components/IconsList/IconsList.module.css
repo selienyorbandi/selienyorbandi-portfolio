@@ -1,94 +1,93 @@
 .IconsList {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: .5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .IconsList li {
-    position: relative;
+  position: relative;
 }
 
 .IconsList li img {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
 .IconsList li p {
-    opacity: 0;
-    width: 80px;
-    text-align: center;
-    background: #222222;
-    color: #eee;
-    padding: .1rem .3rem;
-    position: absolute;
-    top: -30px;
-    font-size: .8rem;
+  opacity: 0;
+  width: 80px;
+  text-align: center;
+  background: #222222;
+  color: #eee;
+  padding: 0.1rem 0.3rem;
+  position: absolute;
+  top: -30px;
+  font-size: 0.8rem;
 }
 
 @media screen and (min-width: 600px) {
-    .IconsList li {
-        display: flex;
-        justify-content: center;
-        width: 60px;
-    }
+  .IconsList li {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+  }
 
-    .IconsList li img {
-        width: 45px;
-        height: 45px;
-    }
+  .IconsList li img {
+    width: 45px;
+    height: 45px;
+  }
 
-    .IconsList li:hover p {
-        opacity: 1;
-    }
+  .IconsList li:hover p {
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-    .IconsList {
-        justify-content: space-between;
-    }
+  .IconsList {
+    justify-content: space-between;
+  }
 
-    .IconsList li {
-        width: 67px;
-    }
+  .IconsList li {
+    width: 67px;
+  }
 
-    .IconsList li img {
-        width: 55px;
-        height: 55px;
-    }
+  .IconsList li img {
+    width: 55px;
+    height: 55px;
+  }
 
-    .IconsList li p {
-        font-size: 1rem;
-    }
+  .IconsList li p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .IconsList li {
-        width: 85px;
-    }
+  .IconsList li {
+    width: 85px;
+  }
 
-    .IconsList li img {
-        width: 55px;
-        height: 55px;
-    }
+  .IconsList li img {
+    width: 55px;
+    height: 55px;
+  }
 
-    .IconsList li p {
-        font-size: 1rem;
-    }
+  .IconsList li p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 1600px) and (min-height: 700px) {
-    .IconsList li {
-        width: 100px;
-    }
+  .IconsList li {
+    width: 100px;
+  }
 
-    .IconsList li p {
-        width: 100px;
-    }
+  .IconsList li p {
+    width: 100px;
+  }
 
-    .IconsList li img {
-        width: 65px;
-        height: 65px;
-    }
-
+  .IconsList li img {
+    width: 65px;
+    height: 65px;
+  }
 }

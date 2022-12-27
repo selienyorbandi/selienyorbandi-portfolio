@@ -5,9 +5,9 @@ import ContactForm from "./ContactForm";
 test("renders content", () => {
   const contactFormRender = render(
     <LangProvider>
-      <ContactForm/>
+      <ContactForm />
     </LangProvider>
   );
-    
+
   expect(contactFormRender.container).toBeVisible();
 });

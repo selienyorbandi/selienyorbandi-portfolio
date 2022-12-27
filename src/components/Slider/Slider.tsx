@@ -8,8 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { Image } from "../../models/Image.model";
 
-function Slider({ images }: {images: Image[]}): JSX.Element {
-  
+function Slider({ images }: { images: Image[] }): JSX.Element {
   return (
     <div>
       <Swiper
@@ -20,12 +19,11 @@ function Slider({ images }: {images: Image[]}): JSX.Element {
         pagination={{ clickable: true }}
         modules={[Pagination]}
         lazy={true}
-        className="Slider"
-      >
+        className="Slider">
         {images.map((img, index) => {
           return (
             <SwiperSlide key={index}>
-              <img src={img.imgSrc} alt={img.alt}/>
+              <img src={img.imgSrc} alt={img.alt} />
             </SwiperSlide>
           );
         })}

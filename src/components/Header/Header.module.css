@@ -7,14 +7,16 @@
   margin-top: 1rem;
 }
 
-.Header span {
+.Header h1 span {
   color: var(--mainFontColor);
+  text-shadow: rgba(255, 255, 255, 0.261) 1px 1px 1px;
+  font-size: calc(1.9rem + 1.7vw);
 }
 
 .Header h1,
 .Header h2 {
   color: var(--thirdFontColor);
-  font-weight: 400;
+  font-weight: 900;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +25,14 @@
   font-size: 1.6rem;
   transform: translateX(-600px);
   animation: up 0.5s linear forwards;
+  text-shadow: rgba(0, 0, 0, 0.261) 1px 1px 4px;
+  text-align: center;
+  font-size: calc(0.85rem + 2vw);
+  line-height: calc(2rem + 2vw);
+}
+
+.Header h2 {
+  font-size: 2rem;
 }
 
 @keyframes up {
@@ -31,29 +41,14 @@
   }
 }
 
-.Header span {
-  font-size: 2.5rem;
-}
-
 /* Large mobile / Tablet */
 @media screen and (max-width: 900px) and (min-height: 698px) {
-
   .Header__Main h1,
   .Header h2 {
     padding: calc(1rem + 1.6vh);
-    line-height: calc(2.5rem + 0.8vh);
   }
-
-  .Header__Main h1 {
-    font-size: calc(1.5rem + 0.8vh);
-  }
-
   .Header h2 {
-    font-size: calc(1.5rem + 2vh);
-  }
-
-  .Header span {
-    font-size: calc(2.5rem + 0.8vh);
+    font-size: 2.5rem;
   }
 }
 
@@ -61,7 +56,7 @@
 @media screen and (min-width: 900px) and (min-height: 600px) {
   .Header {
     background: none;
-    border-bottom: #E66B00 3px solid;
+    border-bottom: #e66b00 3px solid;
   }
 
   .Header__Main {
@@ -76,20 +71,22 @@
 
   .Header h1,
   .Header h2 {
-    padding: 0 4rem;
+    padding: 0 3rem;
     align-items: flex-start;
     font-size: 4rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     line-height: normal;
     color: var(--mainFontColor);
+    text-shadow: none;
+    text-align: left;
+    align-self: flex-start;
+    justify-self: flex-start;
   }
-
 }
 
 /* Desktop */
 @media screen and (min-width: 1600px) and (min-height: 700px) {
-
   .Header h1,
   .Header h2 {
     padding: 0 6rem;

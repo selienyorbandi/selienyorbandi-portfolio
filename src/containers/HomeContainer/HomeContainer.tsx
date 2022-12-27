@@ -18,8 +18,8 @@ function HomeContainer(): JSX.Element {
               defaultMessage="I develop modern, efficient and interactive web apps in React Js focused on a good user experience. I train and keep myself updated to offer real solutions to real problems."
             />
           </p>
-          <div>
-            <img src={homeImg} alt="Developer" />
+          <div className={styles.Home__MyPicture}>
+            <img src={homeImg} alt="Developer" width="220" />
           </div>
         </div>
         <DownBtn link="#aboutme" />

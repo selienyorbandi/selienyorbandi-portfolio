@@ -12,7 +12,8 @@ function ContactForm() {
   const [success, setSuccess] = useState(false);
 
   const isValidEmail = () => {
-    const regExpr = /^[A-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-z0-9](?:[A-z0-9-]*[A-z0-9]){1,}?\.)+[A-z0-9](?:[A-z0-9-]*[A-z0-9]){1,}?$/;
+    const regExpr =
+      /^[A-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-z0-9](?:[A-z0-9-]*[A-z0-9]){1,}?\.)+[A-z0-9](?:[A-z0-9-]*[A-z0-9]){1,}?$/;
     if (regExpr.test(emailForm)) {
       return { isvalid: true, errorMsg: null };
     } else {

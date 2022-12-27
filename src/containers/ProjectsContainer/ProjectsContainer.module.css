@@ -8,9 +8,9 @@
 }
 
 .Projects__Instructions {
+  padding: 0 1rem;
   color: var(--mainFontColor);
-  font-size: calc(0.9rem + 0.9vh);
-  font-weight: 300;
+  font-size: calc(0.9rem + 0.6vh);
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -23,7 +23,7 @@
 }
 
 .Projects__blur {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 /* Small Laptop */
@@ -43,7 +43,6 @@
     margin: auto;
     margin-top: 1.5rem;
   }
-
 }
 
 /* Desktop */
@@ -52,7 +51,6 @@
     font-size: calc(1.7rem + 0.9vh);
     padding: 3rem;
   }
-
 }
 
 /* Lg Desktop */

@@ -60,7 +60,7 @@
   }
   .Carousel__Projects .swiper-pagination {
     position: relative;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
   .Carousel__Projects .swiper-slide {
     transform: scale(0.6);

@@ -1,22 +1,22 @@
 .Slider .swiper-pagination {
-    position: relative;
-    margin: 1rem 0;
+  position: relative;
+  margin: 1rem 0;
 }
 
 .Slider .swiper-pagination-bullet-active {
-    background: var(--mainFontColor) !important;
+  background: var(--mainFontColor) !important;
 }
 
 .Slider img {
-    width: 100%;
-    max-width: 280px;
-    margin: auto;
+  width: 100%;
+  max-width: 280px;
+  margin: auto;
 }
 
 @media screen and (min-width: 900px) and (min-height: 400px) {
-    .Slider img {
-        width: 100%;
-        max-width: none;
-        margin: auto;
-    }
+  .Slider img {
+    width: 100%;
+    max-width: none;
+    margin: auto;
+  }
 }

@@ -1,32 +1,32 @@
 [
-    {
-        "id": 1,
-        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/computahorra-desktop.webp",
-        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/computahorra-desktop.webp",
-        "alt": "Computahorra"
-    },
-    {
-        "id": 2,
-        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/videoplus-desktop.webp",
-        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/videoplus-desktop.webp",
-        "alt": "Videoplus"
-    },
-    {
-        "id": 3,
-        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/recipesapp-desktop.webp",
-        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/recipesapp-desktop.webp",
-        "alt": "Recipes App"
-    },
-    {
-        "id": 4,
-        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/greenbuddies-desktop.webp",
-        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/greenbuddies-desktop.webp",
-        "alt": "GreenBuddies"
-    },
-    {
-        "id": 5,
-        "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/portfolio-desktop.webp",
-        "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/portfolio-desktop.webp",
-        "alt": "Portfolio"
-    }
+  {
+    "id": 1,
+    "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/computahorra-desktop.webp",
+    "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/computahorra-desktop.webp",
+    "alt": "Computahorra"
+  },
+  {
+    "id": 2,
+    "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/videoplus-desktop.webp",
+    "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/videoplus-desktop.webp",
+    "alt": "Videoplus"
+  },
+  {
+    "id": 3,
+    "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/recipesapp-desktop.webp",
+    "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/recipesapp-desktop.webp",
+    "alt": "Recipes App"
+  },
+  {
+    "id": 4,
+    "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/greenbuddies-desktop.webp",
+    "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/greenbuddies-desktop.webp",
+    "alt": "GreenBuddies"
+  },
+  {
+    "id": 5,
+    "imgSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/portfolio-desktop.webp",
+    "thumbSrc": "https://raw.githubusercontent.com/selienyorbandi/selienyorbandi-portfolio/main/src/assets/main-projects/portfolio-desktop.webp",
+    "alt": "Portfolio"
+  }
 ]

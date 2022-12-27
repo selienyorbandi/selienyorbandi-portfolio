@@ -1,7 +1,7 @@
 export interface Image {
-    id: number,
-    imgSrc: string,
-    thumbSrc: string,
-    alt: string,
-    title?: string
+  id: number;
+  imgSrc: string;
+  thumbSrc: string;
+  alt: string;
+  title?: string;
 }

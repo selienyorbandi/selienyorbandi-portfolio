@@ -69,7 +69,7 @@ function Navbar(): JSX.Element {
         </ul>
       </nav>
       <nav className={styles.Navbar__Desktop}>
-        <a href="#">
+        <a href="#" className={styles.Navbar__Desktop__Brand}>
           <img src={brandlogo} alt="Selien Yorbandi" />
         </a>
         <ul className={styles.Navbar__Desktop__List}>

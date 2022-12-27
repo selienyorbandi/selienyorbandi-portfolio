@@ -61,28 +61,34 @@
     z-index: 1090;
     top: 0;
     width: 100%;
-    padding: .5rem 4rem;
+    padding: 0.5rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--secondaryBgColor);
+    font-family: "Lato", sans-serif;
+  }
+
+  .Navbar__Desktop__Brand {
+    width: 15vw;
+    overflow: hidden;
+  }
+
+  .Navbar__Desktop__Brand img {
+    width: 100%;
   }
 
   .Navbar__Desktop__List {
     display: flex;
-    gap: 2rem;
-    font-size: calc(.8rem + 1vw);
-    font-weight: 300;
+    gap: 1.5rem;
+    font-size: calc(0.8rem + 1vw);
+    font-weight: 400;
     color: var(--secondaryFontColor);
   }
 
   .Navbar__Desktop li {
     cursor: pointer;
     position: relative;
-  }
-
-  .Navbar__Desktop li:hover {
-    font-weight: 400;
   }
 
   .Navbar__Desktop li::before {
@@ -119,17 +125,17 @@
     align-items: center;
     gap: 2rem;
   }
-  
+
   .Navbar__Desktop__CV {
     box-shadow: inset 0px 34px 0px -9px #d36600;
-    background-color: #EB7100;
+    background-color: #eb7100;
     border: 1px solid #4d2400;
     cursor: pointer;
     color: #ffffff;
     font-weight: bold;
     padding: 9px 23px;
     text-decoration: none;
-    text-shadow: 0px -1px 0px #002D3E;
+    text-shadow: 0px -1px 0px #002d3e;
     font-size: calc(0.3rem + 1vw);
   }
 
@@ -156,13 +162,18 @@
   .Navbar__Desktop__CV {
     font-size: calc(0.4rem + 1vw);
   }
-
 }
 
 /* Md Laptop */
 @media screen and (min-width: 1300px) and (min-height: 600px) {
   .Navbar__Desktop {
     padding: 1rem 4rem;
+  }
+
+  .Navbar__Desktop__Brand {
+    width: 16vw;
+    max-width: 250px;
+    overflow: hidden;
   }
 }
 

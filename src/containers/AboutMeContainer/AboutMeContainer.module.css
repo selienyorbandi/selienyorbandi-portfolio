@@ -1,147 +1,144 @@
 .AboutMe {
-    color: var(--mainFontColor);
-    padding-bottom: 2rem;
+  color: var(--mainFontColor);
+  padding-bottom: 2rem;
 }
 
 .AboutMe__Content {
-    padding: 1.5rem 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .AboutMe__Content p {
-    padding: .7rem 0;
+  padding: 0.7rem 0;
 }
 
 .AboutMe__Content img {
-    float: left;
-    width: 160px;
-    padding: 1rem 1rem 1rem 0;
+  float: left;
+  width: 160px;
+  padding: 1rem 1rem 1rem 0;
 }
 
 .AboutMe__Content p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .AboutMe__Techs {
-    background: #D1F0F5;
-    padding: 1.5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
-    text-transform: uppercase;
+  background: #d1f0f5;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-transform: uppercase;
 }
 
 .AboutMe__Techs h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .AboutMe__Techs ul {
-    gap: .5rem;
+  gap: 0.5rem;
 }
 
 /* Large mobile */
 @media screen and (max-width: 900px) and (min-height: 800px) {
-    .AboutMe__Content p {
-        font-size: 1.6rem;
-        padding: 1rem 0;
-    }
+  .AboutMe__Content p {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+  }
 }
 
 /* Tablet */
 @media screen and (min-width: 500px) and (min-height: 600px) {
-    .AboutMe__Content p {
-        font-size: 2rem;
-        padding: 1rem 0;
-    }
+  .AboutMe__Content p {
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
 
-    .AboutMe__Techs h3 {
-        font-size: 2.5rem;
-    }
+  .AboutMe__Techs h3 {
+    font-size: 2.5rem;
+  }
 
-    .AboutMe__Content img {
-        width: 200px;
-    }
-
+  .AboutMe__Content img {
+    width: 200px;
+  }
 }
 
 /* Sm Laptop */
 @media screen and (min-width: 900px) and (min-height: 600px) {
-    .AboutMe {
-        scroll-margin-top: 85px;
-    }
+  .AboutMe {
+    scroll-margin-top: 85px;
+  }
 
-    .AboutMe__Content {
-        padding: 2rem 0;
-        font-weight: 400;
-        gap: calc(1rem + 1vh);
-    }
+  .AboutMe__Content {
+    padding: 2rem 0;
+    font-weight: 400;
+    gap: calc(1rem + 1vh);
+  }
 
-    .AboutMe__Content p {
-        font-size: calc(1rem + 2vh);
-        padding: 1rem 3rem;
-    }
+  .AboutMe__Content p {
+    font-size: calc(1rem + 2vh);
+    padding: 1rem 3rem;
+  }
 
-    .AboutMe__Content img {
-        width: 250px;
-        margin-left: 3rem;
-        padding: .7rem;
-    }
+  .AboutMe__Content img {
+    width: 250px;
+    margin-left: 3rem;
+    padding: 0.7rem;
+  }
 
-    .AboutMe__Techs {
-        background: #D1F0F5;
-        min-height: 250px;
-        justify-content: center;
-    }
+  .AboutMe__Techs {
+    background: #d1f0f5;
+    min-height: 250px;
+    justify-content: center;
+  }
 
-    .AboutMe__Techs h3 {
-        font-size: 3rem;
-    }
+  .AboutMe__Techs h3 {
+    font-size: 3rem;
+  }
 
-    .AboutMe__Techs ul {
-        row-gap: 1rem;
-        column-gap: 0;
-    }
+  .AboutMe__Techs ul {
+    row-gap: 1rem;
+    column-gap: 0;
+  }
 
-    .AboutMe__DownBtn {
-        margin: 4rem auto 1rem auto;
-        width: 1px;
-        height: 1px;
-    }
+  .AboutMe__DownBtn {
+    margin: 4rem auto 1rem auto;
+    width: 1px;
+    height: 1px;
+  }
 }
 
 /* Md Laptop */
 @media screen and (min-width: 1300px) and (min-height: 600px) {
+  .AboutMe__Content p,
+  .AboutMe__Techs {
+    padding: 1rem 4rem;
+  }
 
-    .AboutMe__Content p,
-    .AboutMe__Techs {
-        padding: 1rem 4rem;
-    }
-
-    .AboutMe__Content img {
-        margin-left: 4rem;
-        padding: 1.4rem;
-    }
-
+  .AboutMe__Content img {
+    margin-left: 4rem;
+    padding: 1.4rem;
+  }
 }
 
 /* Desktop */
 @media screen and (min-width: 1600px) and (min-height: 700px) {
-    .AboutMe__Content {
-        padding: 4rem 0;
-    }
+  .AboutMe__Content {
+    padding: 4rem 0;
+  }
 
-    .AboutMe__Content p,
-    .AboutMe__Techs {
-        padding: 1rem 6rem;
-    }
+  .AboutMe__Content p,
+  .AboutMe__Techs {
+    padding: 1rem 6rem;
+  }
 
-    .AboutMe__Content img {
-        width: 350px;
-        margin-left: 6rem;
-        padding: 2rem 2rem 0 2rem;
-    }
+  .AboutMe__Content img {
+    width: 350px;
+    margin-left: 6rem;
+    padding: 2rem 2rem 0 2rem;
+  }
 
-    .AboutMe__Content ul {
-        justify-content: space-around;
-    }
+  .AboutMe__Content ul {
+    justify-content: space-around;
+  }
 }
