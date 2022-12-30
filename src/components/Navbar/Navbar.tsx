@@ -55,8 +55,8 @@ function Navbar(): JSX.Element {
             <a
               href={
                 locale === "es-AR"
-                  ? "https://drive.google.com/file/d/1eqH6U9HXW-e2NxbNhmQFWcl4MKIiJnUP/view?usp=sharing"
-                  : "https://drive.google.com/file/d/16uRouKKizGFhgM0O5pSq5qcGncMHEOzD/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1EBdtyW6m4JLspcDI3h1SLmwJSkrY1seo/view?usp=sharing"
+                  : "https://drive.google.com/file/d/1vCpi8mGL-UVVDvmjA5afTw0lhCvlzzo6/view?usp=sharing"
               }
               target="_blank"
               rel="noreferrer">
@@ -99,8 +99,8 @@ function Navbar(): JSX.Element {
           <a
             href={
               locale === "es-AR"
-                ? "https://drive.google.com/file/d/1eqH6U9HXW-e2NxbNhmQFWcl4MKIiJnUP/view?usp=sharing"
-                : "https://drive.google.com/file/d/16uRouKKizGFhgM0O5pSq5qcGncMHEOzD/view?usp=sharing"
+                ? "https://drive.google.com/file/d/1EBdtyW6m4JLspcDI3h1SLmwJSkrY1seo/view?usp=sharing"
+                : "https://drive.google.com/file/d/1vCpi8mGL-UVVDvmjA5afTw0lhCvlzzo6/view?usp=sharing"
             }
             target="_blank"
             rel="noreferrer">
