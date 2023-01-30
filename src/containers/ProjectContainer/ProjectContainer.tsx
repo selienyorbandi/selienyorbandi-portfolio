@@ -15,8 +15,11 @@ function ProjectContainer({ project }: { project: Project | null }) {
 
   useOnClickOutside(projectSelectorRef, () => closeProject());
 
-  return isSelected ? (
-    <div className={styles.ProjectContainer__background}>
+  return (
+    <div
+      className={`${styles.ProjectContainer__background} ${
+        isSelected ? styles.ProjectContainer__selected : styles.ProjectContainer__hidden
+      }`}>
       <article className={styles.ProjectContainer} ref={projectSelectorRef}>
         {project !== null && (
           <>
@@ -68,8 +71,6 @@ function ProjectContainer({ project }: { project: Project | null }) {
         )}
       </article>
     </div>
-  ) : (
-    <></>
   );
 }
 

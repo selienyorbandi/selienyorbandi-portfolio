@@ -15,7 +15,7 @@ import DownBtn from "../../components/DownBtn/DownBtn";
 
 function ProjectsContainer(): JSX.Element {
   const intl = useIntl();
-  const { currentProject, isSelected } = useContext(projectContext);
+  const { currentProject } = useContext(projectContext);
 
   return (
     <section className={styles.Projects} id="projects">
@@ -36,7 +36,7 @@ function ProjectsContainer(): JSX.Element {
         className={styles.Projects__AllProjects}>
         <Button textId="projects.seemore" defaultText="See more projects" />
       </a>
-      {isSelected && <ProjectContainer project={getProject(currentProject)} />}
+      <ProjectContainer project={getProject(currentProject)} />
       <div className={styles.Projects__DownBtn}>
         <DownBtn link="#contact" />
       </div>

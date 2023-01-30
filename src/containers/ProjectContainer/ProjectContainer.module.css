@@ -107,6 +107,14 @@
 .ProjectContainer__NextSlide:hover {
   color: var(--mainFontColor);
 }
+
+.ProjectContainer__selected {
+  display: flex;
+}
+.ProjectContainer__hidden {
+  display: none;
+}
+
 /* Tablet */
 @media screen and (min-width: 500px) and (min-height: 500px) {
   .ProjectContainer {
