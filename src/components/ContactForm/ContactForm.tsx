@@ -26,7 +26,6 @@ function ContactForm() {
 
   const validateInputs = () => {
     if (nameForm !== "" && emailForm !== "" && messageForm !== "") {
-      console.log(isValidEmail());
       return isValidEmail();
     } else {
       return { isvalid: false, errorMsg: intl.formatMessage({ id: "form.error.emptyfield" }) };
@@ -38,19 +37,22 @@ function ContactForm() {
     e.preventDefault();
 
     if (validateInputs()?.isvalid) {
-      const formdata = new FormData();
-      formdata.set("Name", nameForm);
-      formdata.set("Email", emailForm);
-      formdata.set("Message", messageForm);
-      const xhr = new XMLHttpRequest();
-      xhr.open("POST", "https://www.actionforms.io/e/r/contact-selien-yorbandi", true);
-      xhr.send(formdata);
-      setError({ exist: false, errorMsg: "" });
-      setSuccess(true);
-      e.target.reset();
-      setName("");
-      setEmail("");
-      setMessage("");
+      // https://github.com/github/fetch
+      fetch("https://formsubmit.co/ajax/selienyorbandi@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          nameForm,
+          emailForm,
+          messageForm,
+        }),
+      })
+        .then(response => response.json())
+        .then(() => setSuccess(true))
+        .catch(error => console.log(error));
       setTimeout(() => {
         setSuccess(false);
       }, 5000);
